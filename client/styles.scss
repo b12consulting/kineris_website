@@ -1,0 +1,69 @@
+/* VARIABLES COLORS */
+
+$primary-green: #37bdaf;
+$primary-purple: #4b3659;
+
+/* RESET HTML */
+
+html,body {
+    padding: 0;
+    margin: 0;
+}
+
+/* CUSTOM */
+
+.bg-purple {
+    background-color: $primary-purple;
+}
+
+.bg-green {
+    background-color: $primary-green;
+}
+
+/* GENERAL STYLE */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+
+    .logo {
+        width: 50%;
+
+        img {
+            width: 120px;
+        }
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: space-between;
+
+        .section {
+            color: $primary-purple;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    }
+}
+
+.home-view {
+    background-image: url("assets/images/bg-home-view.png");
+    background-repeat: no-repeat;
+    //background-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+
+.section-title {
+    width: 100%;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
