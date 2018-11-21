@@ -20,6 +20,13 @@ html,body {
     background-color: $primary-green;
 }
 
+.center-block {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* GENERAL STYLE */
 
 .menu {
@@ -42,12 +49,16 @@ html,body {
         width: 50%;
         justify-content: space-between;
 
-        .section {
+        .nav-section {
             color: $primary-purple;
             font-weight: bold;
             text-transform: uppercase;
             font-size: 14px;
             text-decoration: none;
+
+            &:hover {
+                color: $primary-green;
+            }
         }
     }
 }
@@ -60,10 +71,31 @@ html,body {
     height: 100vh;
 }
 
-.section-title {
+.wrapper {
     width: 100%;
-    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        width: 80%;
+
+        .section-title {
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 15px;
+        }
+
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: $primary-purple;
     color: white;
-    font-weight: bold;
-    text-transform: uppercase;
 }
