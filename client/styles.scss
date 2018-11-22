@@ -20,11 +20,44 @@ html,body {
     background-color: $primary-green;
 }
 
+.c-green {
+    color: $primary-green;
+}
+
+.c-purple {
+    color: $primary-purple;
+}
+
 .center-block {
     width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        width: 80%;
+
+        .section-title {
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 15px;
+        }
+
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* GENERAL STYLE */
@@ -71,31 +104,42 @@ html,body {
     height: 100vh;
 }
 
-.wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
 
-    .container {
-        width: 80%;
+.team {
+    color: white;
 
-        .section-title {
-            color: white;
-            font-weight: bold;
-            text-transform: uppercase;
-            font-size: 15px;
+    .pic-julie {
+        img {
+
         }
-
     }
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.quote {
+
+}
+
+.tarif {
+    .container {
+        margin-top: 16px;
+    }
 }
 
 .footer {
-    background-color: $primary-purple;
     color: white;
+
+    .center-block {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+
+        .center-block {
+            width: 100%;
+        }
+    }
 }
