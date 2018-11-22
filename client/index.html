@@ -15,7 +15,7 @@
         <a href="#team" class="nav-section">équipe</a>
         <a href="#services" class="nav-section">services</a>
         <a href="#quote" class="nav-section">témoignages</a>
-        <a href="tarif" class="nav-section">tarifs</a>
+        <a href="#tarif" class="nav-section">tarifs</a>
         <a href="#contact" class="nav-section">contrat</a>
     </div>
 </div>
@@ -64,18 +64,36 @@
 </div>
 <div class="wrapper bg-purple">
     <div class="container team">
-        <div class="pic-julie">
-            <img src="assets/images/.png" />
-        </div>
-        <div class="des-julie">
-            <div class="ic-pro">
-                <p>Professionnalisme</p>
+        <div class="row">
+            <div class="pic-julie">
+                <img src="assets/images/pic-julie.png" />
             </div>
-            <div class="ic-health">
-                <p>Mieux-être</p>
-            </div>
-            <div class="ic-hand">
-                <p>Sens de l'engagment</p>
+            <div class="des-julie">
+                <div class="ic-title">
+                    <div class="ic-pro">
+                        <img src="assets/images/ic-pro.svg" width="100px" />
+                        <p>Professionnalisme</p>
+                    </div>
+                    <div class="ic-health">
+                        <img src="assets/images/ic-health.svg" width="100px">
+                        <p>Mieux-être</p>
+                    </div>
+                    <div class="ic-hand">
+                        <img src="assets/images/ic-hand.svg" width="100px">
+                        <p>Sens de l'engagment</p>
+                    </div>
+                </div>
+                <div class="content-julie">
+                    <p>
+                        Kinésithérapeute depuis 13 ans et forte de mon expérience humaine dans
+                        le milieu de la santé mentale, je souhaite mettre à profit mon empathie,
+                        ma formation universitaire et mon sens du travail bien fait, au service
+                        du bien-être de votre équipe. Instaurez une routine de bien-être dans
+                        votre entreprise et renforcer le sentiment d’appartenance tout en se
+                        donnant les atouts d’une meilleure rentabilité et productivité,
+                        voilà ce que je vous propose.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -85,8 +103,29 @@
         <h2 class="section-title">#services</h2>
     </div>
 </div>
-<div class="services">
-
+<div class="wrapper services">
+    <div class="container">
+        <h2 class="sub-title">Stretching</h2>
+        <div class="strech-box">
+            <div class="strech-content">
+                <p>
+                    Le stretching est une discipline douce, qui se pratique dans l’écoute de soi-même
+                    au rythme de votre respiration lente et profonde.
+                </p>
+                <p>
+                    Le stretching renferme de nombreux bienfaits, il permet d’assouplir les muscles,
+                    d’améliorer sa posture et d’évacuer le stress.
+                </p>
+                <p>
+                    Apprenons ensemble à corriger votre posture tout en douceur pour vous
+                    libérer de vos tensions du quotidien.
+                </p>
+            </div>
+            <div>
+                <img src="assets/images/ic-streching.svg" width="400px;">
+            </div>
+        </div>
+    </div>
 </div>
 <div id="quote" class="wrapper bg-green">
     <div class="container">
@@ -156,8 +195,25 @@
                     vaut mieux qu’un long discours.
                 </p>
             </div>
-            <div class="center-block">
-                <p>formulaire de contact</p>
+            <div class="center-block form">
+                <div>
+                    <input type="text" id="name"
+                           size="30" placeholder="Name" required>
+                    <input type="text" id="lastname"
+                           size="30" placeholder="Prénom" required>
+                </div>
+                <div>
+                    <input type="email" id="email"
+                           size="30" placeholder="Email" required>
+                    <input type="tel" id="tel"
+                           size="30" placeholder="Téléphone" required>
+                </div>
+                <div>
+                    <textarea>test</textarea>
+                </div>
+                <div class="btn-footer">
+                    <button type="submit">Envoyer</button>
+                </div>
             </div>
         </div>
     </div>

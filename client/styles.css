@@ -41,6 +41,12 @@ html, body {
   justify-content: space-between;
   flex-wrap: wrap; }
 
+input {
+  border-radius: 5px;
+  border: solid 1px #37bdaf;
+  height: 20px;
+  margin-bottom: 16px; }
+
 /* GENERAL STYLE */
 .menu {
   display: flex;
@@ -68,19 +74,61 @@ html, body {
 .home-view {
   background-image: url("assets/images/bg-home-view.png");
   background-repeat: no-repeat;
+  background-position: center center;
   width: 100%;
-  height: 100vh; }
+  height: 600px; }
 
 .team {
   color: white; }
+  .team .pic-julie {
+    width: 50%; }
+    .team .pic-julie img {
+      width: 360px; }
+  .team .des-julie {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .team .des-julie .ic-title {
+      width: 50%;
+      display: flex;
+      justify-content: space-between; }
+    .team .des-julie .content-julie {
+      width: 30%; }
+
+.services .sub-title {
+  color: #4b3659;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center; }
+.services .strech-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+.services .strech-content {
+  width: 50%; }
 
 .tarif .container {
   margin-top: 16px; }
 
 .footer {
-  color: white; }
+  color: white;
+  padding-bottom: 16px; }
   .footer .center-block {
-    width: 45%; }
+    width: 50%; }
+  .footer .form {
+    margin-top: 16px; }
+    .footer .form .btn-footer {
+      align-self: flex-end; }
+      .footer .form .btn-footer button {
+        background-color: #37bdaf;
+        color: white;
+        border: solid 1px white;
+        border-radius: 5px;
+        height: 25px;
+        width: 70px;
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer; }
 
 @media screen and (max-width: 750px) {
   .row {

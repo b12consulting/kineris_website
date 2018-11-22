@@ -60,6 +60,13 @@ html,body {
     flex-wrap: wrap;
 }
 
+input {
+    border-radius: 5px;
+    border: solid 1px $primary-green;
+    height: 20px;
+    margin-bottom: 16px;
+}
+
 /* GENERAL STYLE */
 
 .menu {
@@ -99,9 +106,9 @@ html,body {
 .home-view {
     background-image: url("assets/images/bg-home-view.png");
     background-repeat: no-repeat;
-    //background-position: center center;
+    background-position: center center;
     width: 100%;
-    height: 100vh;
+    height: 600px;
 }
 
 
@@ -109,9 +116,45 @@ html,body {
     color: white;
 
     .pic-julie {
+        width: 50%;
         img {
-
+            width: 360px;
         }
+    }
+
+    .des-julie {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .ic-title {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content-julie {
+            width: 30%;
+        }
+    }
+}
+
+.services {
+
+    .sub-title {
+        color: $primary-purple;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-align: center;
+    }
+    .strech-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .strech-content {
+        width: 50%;
     }
 }
 
@@ -127,9 +170,30 @@ html,body {
 
 .footer {
     color: white;
+    padding-bottom: 16px;
 
     .center-block {
-        width: 45%;
+        width: 50%;
+    }
+
+    .form {
+        margin-top: 16px;
+
+        .btn-footer {
+            align-self: flex-end;
+
+            button {
+                background-color: #37bdaf;
+                color: white;
+                border: solid 1px white;
+                border-radius: 5px;
+                height: 25px;
+                width: 70px;
+                text-transform: uppercase;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
     }
 }
 
