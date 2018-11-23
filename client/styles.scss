@@ -30,7 +30,8 @@ html,body {
 
     li {
         a {
-            display: block;
+            display: flex;
+            align-items: center;
             padding: 20px 20px;
             border-right: 1px solid white;
             text-decoration: none;
@@ -97,10 +98,11 @@ html,body {
     }
 
     .logo {
-        display: block;
+        display: flex;
+        align-items: center;
         float: left;
         font-size: 2em;
-        padding: 10px 20px;
+        padding: 13px 20px;
         text-decoration: none;
     }
 }
@@ -190,10 +192,60 @@ input {
     margin-bottom: 16px;
 }
 
+/* ANIMATION SWITCH */
+
+#switch-txt {
+    text-transform: uppercase;
+    font-size:36px;
+    font-weight:bold;
+    width:100%;
+    bottom:45%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    #flip {
+        height:50px;
+        overflow:hidden;
+
+        .green {
+            color: $primary-green;
+        }
+    }
+}
+
+#flip > div > div {
+    color:$primary-purple;
+    padding:4px 12px;
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+}
+
+#flip div:first-child {
+    animation: show 5s linear infinite;
+}
+
+@keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+}
+
+
 /* GENERAL STYLE */
 
-
 .home-view {
+    padding-top: 59px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-image: url("assets/images/bg-home-view.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -292,20 +344,9 @@ input {
     }
 }
 
-@media screen and (max-width: 750px) {
-    .row {
-        display: flex;
-        flex-direction: column;
+/* MENU BURGER */
 
-        .center-block {
-            width: 100%;
-        }
-    }
-}
-
-/* 48em = 768px */
-
-@media (min-width: 48em) {
+@media (min-width: 1007px) {
     .header li {
         float: left;
     }
@@ -319,5 +360,16 @@ input {
     }
     .header .menu-icon {
         display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+
+        .center-block {
+            width: 100%;
+        }
     }
 }
