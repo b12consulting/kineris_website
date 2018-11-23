@@ -4,7 +4,7 @@ html, body {
   padding: 0;
   margin: 0; }
 
-/* header */
+/* RESPONSIVE MENU */
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
@@ -25,7 +25,9 @@ html, body {
     text-decoration: none;
     color: #4b3659;
     cursor: pointer;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 14px; }
     .header li a:hover {
       background-color: #f4f4f4;
       color: #37bdaf; }
@@ -158,7 +160,7 @@ input {
   display: inline-block; }
 
 #flip div:first-child {
-  animation: show 5s linear infinite; }
+  animation: show 9s linear infinite; }
 
 @keyframes show {
   0% {
@@ -190,6 +192,20 @@ input {
   width: 100%;
   height: 600px; }
 
+.problem .center-block p {
+  max-width: 350px; }
+.problem .conclusion {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0; }
+  .problem .conclusion div {
+    border-top: solid 1px #37bdaf;
+    border-bottom: solid 1px #37bdaf; }
+    .problem .conclusion div .accroch {
+      text-transform: uppercase;
+      color: #37bdaf;
+      font-weight: bold; }
+
 .team {
   color: white;
   display: flex;
@@ -212,6 +228,15 @@ input {
     .team .des-julie .content-julie {
       width: 100%; }
 
+.services .ergo-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .services .ergo-box .mid-box {
+    width: 50%; }
+    .services .ergo-box .mid-box img {
+      width: 100%;
+      height: 100%; }
 .services .sub-title {
   color: #4b3659;
   text-transform: uppercase;
@@ -222,6 +247,38 @@ input {
   align-items: center; }
 .services .strech-content {
   width: 50%; }
+
+.quote .title {
+  margin-top: 16px;
+  color: #37bdaf;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase; }
+.quote .center-block {
+  display: flex;
+  flex-direction: row; }
+  .quote .center-block .box {
+    border-radius: 5px;
+    border: solid 1px #4b3659;
+    padding: 15px; }
+  .quote .center-block .ic-quote {
+    background-color: white;
+    z-index: 2; }
+    .quote .center-block .ic-quote img {
+      margin-right: -30px; }
+  .quote .center-block .michel {
+    padding-right: 40px;
+    padding-left: 40px; }
+  .quote .center-block .ic-michel {
+    margin-left: -35px; }
+  .quote .center-block .wendy {
+    padding-right: 45px; }
+  .quote .center-block .ic-wendy {
+    margin-left: -40px; }
+  .quote .center-block .bertrand {
+    padding-right: 52px; }
+  .quote .center-block .ic-bertrand {
+    margin-left: -52px; }
 
 .tarif .container {
   margin-top: 16px; }
@@ -247,7 +304,7 @@ input {
         cursor: pointer; }
 
 /* MENU BURGER */
-@media (min-width: 1007px) {
+@media (min-width: 1010px) {
   .header li {
     float: left; }
 
