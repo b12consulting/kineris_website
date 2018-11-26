@@ -310,38 +310,44 @@ input {
   text-transform: uppercase; }
 .quote .center-block {
   display: flex;
+  flex-direction: row;
+  width: 45%; }
+.quote .box {
+  border-radius: 5px;
+  border: solid 1px #4b3659;
+  padding: 15px;
+  z-index: 1; }
+.quote .ic-quote img {
+  margin-right: -30px;
+  background-color: white;
+  z-index: 2;
+  position: relative;
+  padding: 7px 0; }
+.quote .michel {
+  padding-right: 40px;
+  padding-left: 40px;
+  z-index: 0; }
+.quote .ic-michel {
+  margin-left: -35px;
+  z-index: 2; }
+.quote .wendy {
+  padding-right: 45px;
+  z-index: 0;
+  padding-left: 45px; }
+.quote .ic-wendy {
+  margin-left: -40px;
+  z-index: 3; }
+.quote .bertrand {
+  padding-right: 52px;
+  padding-left: 52px; }
+.quote .ic-bertrand {
+  margin-left: -52px;
+  z-index: 3; }
+.quote .mid-center-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   flex-direction: row; }
-  .quote .center-block .box {
-    border-radius: 5px;
-    border: solid 1px #4b3659;
-    padding: 15px;
-    z-index: 1; }
-  .quote .center-block .ic-quote img {
-    margin-right: -30px;
-    background-color: white;
-    z-index: 2;
-    position: relative;
-    padding: 7px 0; }
-  .quote .center-block .michel {
-    padding-right: 40px;
-    padding-left: 40px;
-    z-index: 0; }
-  .quote .center-block .ic-michel {
-    margin-left: -35px;
-    z-index: 2; }
-  .quote .center-block .wendy {
-    padding-right: 45px;
-    z-index: 0;
-    padding-left: 45px; }
-  .quote .center-block .ic-wendy {
-    margin-left: -40px;
-    z-index: 3; }
-  .quote .center-block .bertrand {
-    padding-right: 52px;
-    padding-left: 52px; }
-  .quote .center-block .ic-bertrand {
-    margin-left: -52px;
-    z-index: 3; }
 
 .tarif .container {
   margin-top: 16px; }
@@ -419,6 +425,9 @@ input {
     flex-direction: column; }
     .row .center-block {
       width: 100%; }
+
+  .quote .center-block {
+    width: 100%; }
 
   .home-view {
     height: 400px; }

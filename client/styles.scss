@@ -452,56 +452,64 @@ input {
     .center-block {
         display: flex;
         flex-direction: row;
+        width: 45%;
+    }
 
-        .box {
-            border-radius: 5px;
-            border: solid 1px $primary-purple;
-            padding: 15px;
-            z-index: 1;
-        }
+    .box {
+        border-radius: 5px;
+        border: solid 1px $primary-purple;
+        padding: 15px;
+        z-index: 1;
+    }
 
-        .ic-quote {
+    .ic-quote {
 
-            img {
-                margin-right: -30px;
-                background-color: white;
-                z-index: 2;
-                position: relative;
-                padding: 7px 0;
-            }
-        }
-
-        .michel {
-            padding-right: 40px;
-            padding-left: 40px;
-            z-index: 0;
-        }
-
-        .ic-michel {
-            margin-left: -35px;
+        img {
+            margin-right: -30px;
+            background-color: white;
             z-index: 2;
+            position: relative;
+            padding: 7px 0;
         }
+    }
 
-        .wendy {
-            padding-right: 45px;
-            z-index: 0;
-            padding-left: 45px;
-        }
+    .michel {
+        padding-right: 40px;
+        padding-left: 40px;
+        z-index: 0;
+    }
 
-        .ic-wendy {
-            margin-left: -40px;
-            z-index: 3;
-        }
+    .ic-michel {
+        margin-left: -35px;
+        z-index: 2;
+    }
 
-        .bertrand {
-            padding-right: 52px;
-            padding-left: 52px;
-        }
+    .wendy {
+        padding-right: 45px;
+        z-index: 0;
+        padding-left: 45px;
+    }
 
-        .ic-bertrand {
-            margin-left: -52px;
-            z-index: 3;
-        }
+    .ic-wendy {
+        margin-left: -40px;
+        z-index: 3;
+    }
+
+    .bertrand {
+        padding-right: 52px;
+        padding-left: 52px;
+    }
+
+    .ic-bertrand {
+        margin-left: -52px;
+        z-index: 3;
+    }
+
+    .mid-center-box {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
     }
 }
 
@@ -606,7 +614,9 @@ input {
     .header .menu-icon {
         display: none;
     }
+
 }
+
 
 @media screen and (max-width: 750px) {
     .row {
@@ -616,6 +626,10 @@ input {
         .center-block {
             width: 100%;
         }
+    }
+
+    .quote .center-block {
+        width: 100%;
     }
 
     .home-view {
