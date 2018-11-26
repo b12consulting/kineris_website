@@ -18,7 +18,7 @@ html,body {
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
-    z-index: 3;
+    z-index: 5;
 
     ul {
         margin: 0;
@@ -170,9 +170,6 @@ html,body {
 
     .container {
         width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
 
         .section-title {
             color: white;
@@ -300,11 +297,7 @@ input {
     padding-bottom: 16px;
 
     .pic-julie {
-        width: 45%;
-
-        img {
-            width: 60%;
-        }
+        width: 250px;
     }
 
     .des-julie {
@@ -312,10 +305,15 @@ input {
         justify-content: center;
         flex-direction: column;
         width: 55%;
+        padding: 16px;
 
         .ic-title {
             display: flex;
             justify-content: space-between;
+
+            .ic {
+                width: 100px;
+            }
         }
 
         .content-julie {
@@ -370,7 +368,15 @@ input {
 
         .massage-content {
             color: white;
-            max-width: 500px;
+            width: 50%;
+        }
+
+        .ic-massage {
+            width: 50%;
+
+            img {
+                width: 170px;
+            }
         }
     }
 
@@ -583,6 +589,15 @@ input {
     .team {
         flex-direction: column;
 
+        .des-julie {
+            width: 100% !important;
+
+            .ic {
+                width: 60px;
+                padding: 0 10px;
+            }
+        }
+
         .pic-julie {
             width: 250px !important;
         }
@@ -592,7 +607,16 @@ input {
         flex-direction: column;
 
         .massage-content {
-            max-width: 100% !important;
+            width: 100% !important;
+        }
+
+        .ic-massage {
+            width: 50%;
+            padding: 16px 0;
+
+            img {
+                width: 150px;
+            }
         }
     }
 
@@ -610,7 +634,8 @@ input {
         }
 
         .right-box {
-            align-items: center !important;
+            //align-items: center !important;
+            width: 100% !important;
 
 
             .content {
