@@ -234,12 +234,32 @@ input {
     .team .des-julie .content-julie {
       width: 100%; }
 
+.number-wrapper {
+  border-top: solid 1px #37bdaf;
+  padding-top: 16px;
+  padding-bottom: 16px; }
+  .number-wrapper .number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .number-wrapper .number .number-box {
+      display: block;
+      text-align: center;
+      width: 33%; }
+      .number-wrapper .number .number-box .ic {
+        width: 100px; }
+      .number-wrapper .number .number-box p {
+        text-align: left; }
+    .number-wrapper .number .padding {
+      padding: 0 16px; }
+  .number-wrapper .legend {
+    font-size: 12px; }
+
 .services .ergo-box {
   display: flex;
   justify-content: space-between;
   align-items: center; }
   .services .ergo-box .left-box {
-    width: 50%;
     background-color: black; }
     .services .ergo-box .left-box .picture {
       width: 100%; }
@@ -248,9 +268,9 @@ input {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 50px; }
+    padding: 16px 50px; }
     .services .ergo-box .right-box img {
-      width: 50%; }
+      max-width: 350px; }
     .services .ergo-box .right-box .content {
       max-width: 500px; }
 .services .sub-title {
@@ -264,8 +284,11 @@ input {
   .services .massage-box .massage-content {
     color: white;
     width: 50%; }
+    .services .massage-box .massage-content .txt {
+      max-width: 500px; }
   .services .massage-box .ic-massage {
-    width: 50%; }
+    width: 50%;
+    padding-left: 50px; }
     .services .massage-box .ic-massage img {
       width: 170px; }
 .services .strech-box {
@@ -418,7 +441,7 @@ input {
       width: 100% !important; }
     .massage-box .ic-massage {
       width: 50%;
-      padding: 16px 0; }
+      padding: 16px 0 !important; }
       .massage-box .ic-massage img {
         width: 150px; }
 
@@ -449,5 +472,22 @@ input {
     .footer .content .right-box {
       width: 100%;
       padding: 0; } }
+@media screen and (max-width: 600px) {
+  .number-wrapper .container .number {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .number-wrapper .container .number .number-box {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .number-wrapper .container .number .number-box p {
+        max-width: 200px; }
+    .number-wrapper .container .number .padding {
+      padding: 0; } }
+@media screen and (max-width: 400px) {
+  .services .ergo-box .right-box img {
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

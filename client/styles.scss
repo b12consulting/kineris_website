@@ -322,6 +322,41 @@ input {
     }
 }
 
+.number-wrapper {
+    border-top: solid 1px $primary-green;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    .number {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .number-box {
+            display: block;
+            text-align: center;
+            width: 33%;
+
+
+            .ic {
+                width: 100px;
+            }
+
+            p {
+                text-align: left;
+            }
+        }
+
+        .padding {
+            padding: 0 16px;
+        }
+    }
+
+    .legend {
+        font-size: 12px;
+    }
+}
+
 .services {
 
     .ergo-box {
@@ -330,7 +365,7 @@ input {
         align-items: center;
 
         .left-box {
-            width: 50%;
+            //width: 50%;
             background-color: black;
 
             .picture {
@@ -343,10 +378,10 @@ input {
             display: flex;
             justify-content: center;
             flex-direction: column;
-            padding: 0 50px;
+            padding: 16px 50px;
 
             img {
-                width: 50%;
+                max-width: 350px;
             }
 
             .content {
@@ -369,10 +404,15 @@ input {
         .massage-content {
             color: white;
             width: 50%;
+
+            .txt {
+                max-width: 500px;
+            }
         }
 
         .ic-massage {
             width: 50%;
+            padding-left: 50px;
 
             img {
                 width: 170px;
@@ -612,7 +652,7 @@ input {
 
         .ic-massage {
             width: 50%;
-            padding: 16px 0;
+            padding: 16px 0 !important;
 
             img {
                 width: 150px;
@@ -672,5 +712,36 @@ input {
                 padding: 0;
             }
         }
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .number-wrapper .container .number {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .number-box {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            p {
+                max-width: 200px;
+            }
+        }
+
+        .padding {
+            padding: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .services .ergo-box .right-box img {
+        width: 100%;
     }
 }
