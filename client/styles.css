@@ -206,6 +206,10 @@ input {
       color: #37bdaf;
       font-weight: bold; }
 
+.id-section {
+  height: 59px;
+  margin-top: -59px; }
+
 .team {
   color: white;
   display: flex;
@@ -232,21 +236,42 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  .services .ergo-box .mid-box {
-    width: 50%; }
-    .services .ergo-box .mid-box img {
-      width: 100%;
-      height: 100%; }
+  .services .ergo-box .left-box {
+    width: 50%;
+    background-color: black; }
+    .services .ergo-box .left-box .picture {
+      width: 100%; }
+  .services .ergo-box .right-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px; }
+    .services .ergo-box .right-box img {
+      width: 50%; }
+    .services .ergo-box .right-box .content {
+      max-width: 500px; }
 .services .sub-title {
   color: #4b3659;
   text-transform: uppercase;
   font-size: 16px; }
+.services .massage-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .services .massage-box .massage-content {
+    color: white;
+    max-width: 500px; }
 .services .strech-box {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-.services .strech-content {
-  width: 50%; }
+  .services .strech-box .strech-content {
+    width: 50%; }
+  .services .strech-box .ic-content {
+    padding: 15px; }
+    .services .strech-box .ic-content img {
+      width: 400px; }
 
 .quote .title {
   margin-top: 16px;
@@ -260,25 +285,34 @@ input {
   .quote .center-block .box {
     border-radius: 5px;
     border: solid 1px #4b3659;
-    padding: 15px; }
-  .quote .center-block .ic-quote {
+    padding: 15px;
+    z-index: 1; }
+  .quote .center-block .ic-quote img {
+    margin-right: -30px;
     background-color: white;
-    z-index: 2; }
-    .quote .center-block .ic-quote img {
-      margin-right: -30px; }
+    z-index: 2;
+    position: relative;
+    padding: 7px 0; }
   .quote .center-block .michel {
     padding-right: 40px;
-    padding-left: 40px; }
+    padding-left: 40px;
+    z-index: 0; }
   .quote .center-block .ic-michel {
-    margin-left: -35px; }
+    margin-left: -35px;
+    z-index: 2; }
   .quote .center-block .wendy {
-    padding-right: 45px; }
+    padding-right: 45px;
+    z-index: 0;
+    padding-left: 45px; }
   .quote .center-block .ic-wendy {
-    margin-left: -40px; }
+    margin-left: -40px;
+    z-index: 3; }
   .quote .center-block .bertrand {
-    padding-right: 52px; }
+    padding-right: 52px;
+    padding-left: 52px; }
   .quote .center-block .ic-bertrand {
-    margin-left: -52px; }
+    margin-left: -52px;
+    z-index: 3; }
 
 .tarif .container {
   margin-top: 16px; }
@@ -286,22 +320,44 @@ input {
 .footer {
   color: white;
   padding-bottom: 16px; }
-  .footer .center-block {
-    width: 50%; }
-  .footer .form {
-    margin-top: 16px; }
-    .footer .form .btn-footer {
-      align-self: flex-end; }
-      .footer .form .btn-footer button {
-        background-color: #37bdaf;
-        color: white;
-        border: solid 1px white;
+  .footer .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .footer .content .left-box {
+      width: 50%; }
+      .footer .content .left-box .address-blox {
+        display: flex;
+        flex-direction: column; }
+    .footer .content .right-box {
+      margin-top: 16px;
+      width: 50%;
+      padding: 0 16px; }
+      .footer .content .right-box .input-line {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+        .footer .content .right-box .input-line input {
+          width: 48%; }
+      .footer .content .right-box .btn-footer {
+        display: flex;
+        justify-content: flex-end; }
+        .footer .content .right-box .btn-footer button {
+          background-color: #37bdaf;
+          color: white;
+          border: solid 1px white;
+          border-radius: 5px;
+          height: 25px;
+          width: 70px;
+          text-transform: uppercase;
+          font-weight: 600;
+          cursor: pointer; }
+      .footer .content .right-box textarea {
+        max-width: 99%;
+        min-width: 99%;
+        min-height: 150px;
         border-radius: 5px;
-        height: 25px;
-        width: 70px;
-        text-transform: uppercase;
-        font-weight: 600;
-        cursor: pointer; }
+        border: solid 1px #37bdaf; }
 
 /* MENU BURGER */
 @media (min-width: 1010px) {
@@ -323,6 +379,44 @@ input {
     display: flex;
     flex-direction: column; }
     .row .center-block {
-      width: 100%; } }
+      width: 100%; }
+
+  .home-view {
+    height: 400px; }
+    .home-view #switch-txt {
+      font-size: 25px; }
+
+  .massage-box {
+    flex-direction: column; }
+    .massage-box .massage-content {
+      max-width: 100% !important; }
+
+  .ergo-box {
+    display: flex;
+    flex-direction: column; }
+    .ergo-box .left-box {
+      width: 100% !important;
+      background-color: black; }
+      .ergo-box .left-box .picture {
+        width: 100%; }
+    .ergo-box .right-box {
+      align-items: center !important; }
+      .ergo-box .right-box .content {
+        max-width: 500px; }
+
+  .strech-box {
+    flex-direction: column; }
+    .strech-box .strech-content {
+      width: 100% !important; }
+    .strech-box .ic-content img {
+      width: 300px !important; }
+
+  .footer .content {
+    flex-direction: column !important; }
+    .footer .content .left-box {
+      width: 100%; }
+    .footer .content .right-box {
+      width: 100%;
+      padding: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

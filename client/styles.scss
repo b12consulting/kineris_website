@@ -281,6 +281,12 @@ input {
     }
 }
 
+.id-section {
+    height: 59px;
+    margin-top: -59px;
+
+}
+
 .team {
     color: white;
     display: flex;
@@ -321,12 +327,28 @@ input {
         justify-content: space-between;
         align-items: center;
 
-        .mid-box {
+        .left-box {
             width: 50%;
+            background-color: black;
+
+            .picture {
+                width: 100%;
+            }
+        }
+
+        .right-box {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 50px;
 
             img {
-                width: 100%;
-                height: 100%;
+                width: 50%;
+            }
+
+            .content {
+                max-width: 500px;
             }
         }
     }
@@ -336,14 +358,34 @@ input {
         text-transform: uppercase;
         font-size: 16px;
     }
+
+    .massage-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .massage-content {
+            color: white;
+            max-width: 500px;
+        }
+    }
+
     .strech-box {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
 
-    .strech-content {
-        width: 50%;
+        .strech-content {
+            width: 50%;
+        }
+
+        .ic-content {
+            padding: 15px;
+
+            img {
+                width: 400px;
+            }
+        }
     }
 }
 
@@ -365,40 +407,50 @@ input {
             border-radius: 5px;
             border: solid 1px $primary-purple;
             padding: 15px;
+            z-index: 1;
         }
 
         .ic-quote {
-            background-color: white;
-            z-index: 2;
 
             img {
                 margin-right: -30px;
+                background-color: white;
+                z-index: 2;
+                position: relative;
+                padding: 7px 0;
             }
         }
 
         .michel {
             padding-right: 40px;
             padding-left: 40px;
+            z-index: 0;
         }
 
         .ic-michel {
             margin-left: -35px;
+            z-index: 2;
         }
 
         .wendy {
             padding-right: 45px;
+            z-index: 0;
+            padding-left: 45px;
         }
 
         .ic-wendy {
             margin-left: -40px;
+            z-index: 3;
         }
 
         .bertrand {
             padding-right: 52px;
+            padding-left: 52px;
         }
 
         .ic-bertrand {
             margin-left: -52px;
+            z-index: 3;
         }
     }
 }
@@ -413,26 +465,58 @@ input {
     color: white;
     padding-bottom: 16px;
 
-    .center-block {
-        width: 50%;
-    }
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
-    .form {
-        margin-top: 16px;
+        .left-box {
+            width: 50%;
 
-        .btn-footer {
-            align-self: flex-end;
+            .address-blox {
+                display: flex;
+                flex-direction: column;
+            }
+        }
 
-            button {
-                background-color: #37bdaf;
-                color: white;
-                border: solid 1px white;
+        .right-box {
+            margin-top: 16px;
+            width: 50%;
+            padding: 0 16px;
+
+            .input-line {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                input {
+                    width: 48%
+                }
+            }
+
+            .btn-footer {
+                display: flex;
+                justify-content: flex-end;
+
+                button {
+                    background-color: #37bdaf;
+                    color: white;
+                    border: solid 1px white;
+                    border-radius: 5px;
+                    height: 25px;
+                    width: 70px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+            }
+
+            textarea {
+                max-width: 99%;
+                min-width: 99%;
+                min-height: 150px;
                 border-radius: 5px;
-                height: 25px;
-                width: 70px;
-                text-transform: uppercase;
-                font-weight: 600;
-                cursor: pointer;
+                border: solid 1px $primary-green
             }
         }
     }
@@ -464,6 +548,75 @@ input {
 
         .center-block {
             width: 100%;
+        }
+    }
+
+    .home-view {
+        height: 400px;
+
+        #switch-txt {
+            font-size: 25px;
+        }
+    }
+
+    .massage-box {
+        flex-direction: column;
+
+        .massage-content {
+            max-width: 100% !important;
+        }
+    }
+
+    .ergo-box {
+        display: flex;
+        flex-direction: column;
+
+        .left-box {
+            width: 100% !important;
+            background-color: black;
+
+            .picture {
+                width: 100%;
+            }
+        }
+
+        .right-box {
+            align-items: center !important;
+
+
+            .content {
+                max-width: 500px;
+            }
+        }
+    }
+
+    .strech-box {
+        flex-direction: column;
+
+        .strech-content {
+            width: 100% !important;
+        }
+
+        .ic-content {
+
+            img {
+                width: 300px !important;
+            }
+        }
+    }
+
+    .footer {
+        .content {
+            flex-direction: column !important;
+
+            .left-box {
+                width: 100%;
+            }
+
+            .right-box {
+                width: 100%;
+                padding: 0;
+            }
         }
     }
 }

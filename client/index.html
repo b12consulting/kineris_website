@@ -45,8 +45,8 @@
         </div>
     </div>
 </div>
-
-<div id="problem" class="wrapper bg-purple">
+<div class="id-section" id="problem"></div>
+<div class="wrapper bg-purple">
     <div class="container">
         <h2 class="section-title">#Problématique</h2>
     </div>
@@ -89,7 +89,8 @@
         </div>
     </div>
 </div>
-<div id="team" class="wrapper bg-green">
+<div class="id-section" id="team"></div>
+<div class="wrapper bg-green">
     <div class="container">
         <h2 class="section-title">#équipe</h2>
     </div>
@@ -128,7 +129,8 @@
         </div>
     </div>
 </div>
-<div id="services" class="wrapper bg-green">
+<div class="id-section" id="services"></div>
+<div class="wrapper bg-green">
     <div class="container">
         <h2 class="section-title">#services</h2>
     </div>
@@ -136,13 +138,13 @@
 <div class="wrapper services">
     <div class="container">
         <div class="ergo-box">
-            <div class="mid-box">
-                <img src="assets/images/ergonomy-picture.png" />
+            <div class="left-box">
+                <img class="picture" src="assets/images/ergonomy-picture.png" />
             </div>
-            <div>
-                <img src="assets/images/ic-ergo.svg" width="300px;">
+            <div class="right-box">
+                <img src="assets/images/ic-ergo.svg">
                 <h2 class="sub-title">Ergonomie</h2>
-                <p>
+                <p class="content">
                     Il n’est plus à démontrer l’importance d’une bonne posture face aux écrans.
                     Conseils avisés, trucs et astuces adaptés à chacun, au service de la prévention !
                 </p>
@@ -153,8 +155,8 @@
 <div class="wrapper services bg-green">
     <div class="container">
         <h2 class="sub-title">Impact du massage assis sur la compétitivité de l’entreprise</h2>
-        <div class="strech-box">
-            <div class="strech-content">
+        <div class="massage-box">
+            <div class="massage-content">
                 <p>
                     Bienfaits :
                 </p>
@@ -167,6 +169,13 @@
                 </p>
                 <p>
                     Fréquences :
+                </p>
+                <p>
+                    De manière ponctuelle, le massage Assis permet une relaxation profonde, sur le moment.
+
+                    De manière régulière, il permet une régulation du taux de cortisol, hormone du « stress ».
+
+                    Fréquent, il conduit à une plus grande résistance au stress et un renforcement des défenses immunitaires.
                 </p>
             </div>
             <div>
@@ -193,13 +202,14 @@
                     libérer de vos tensions du quotidien.
                 </p>
             </div>
-            <div>
-                <img src="assets/images/ic-streching.svg" width="400px;">
+            <div class="ic-content">
+                <img src="assets/images/ic-streching.svg">
             </div>
         </div>
     </div>
 </div>
-<div id="quote" class="wrapper bg-green">
+<div class="id-section" id="quote"></div>
+<div class="wrapper bg-green">
     <div class="container">
         <h2 class="section-title">#témoignages</h2>
     </div>
@@ -234,14 +244,15 @@
                 </div>
                 <p class="box bertrand">
                     Au travail, je reste de longues heures assis devant mon ordinateur. Julie m’a
-                    donné d’excellents conseils pour rester actif et soulager mes tensions.
+                    donné d’excellents conseils pour soulager mes tensions.
                 </p>
                 <img class="ic-bertrand" src="assets/images/quote-bertrand.jpg" />
             </div>
         </div>
     </div>
 </div>
-<div id="tarif" class="wrapper bg-purple">
+<div class="id-section" id="tarif"></div>
+<div class="wrapper bg-purple">
     <div class="container">
         <h2 class="section-title bg-purple">#Tarifs</h2>
     </div>
@@ -264,30 +275,41 @@
         </div>
     </div>
 </div>
-<div id="contact" class="wrapper bg-green">
+<div class="id-section" id="contact"></div>
+<div class="wrapper bg-green">
     <div class="container">
         <h2 class="section-title bg-green">#contact</h2>
     </div>
 </div>
 <div class="wrapper bg-purple footer">
     <div class="container">
-        <div class="row">
-            <div class="center-block">
-                <p>Le massage assis dans votre gamme d’avantages extralégaux,
+        <div class="content">
+            <div class="left-box">
+                <p>
+                    Le massage assis dans votre gamme d’avantages extralégaux,
                     y avez-vous déjà pensé ?
                 </p>
-                <p>Accordez-moi 15min, une démonstration sans engagement
+                <p>
+                    Accordez-moi 15min, une démonstration sans engagement
                     vaut mieux qu’un long discours.
                 </p>
+                <div class="address-blox">
+                    <span>Mes coordonnées complète :</span>
+                    <span>info@kinéris.be</span>
+                    <span>31 Avenue du Levant 5030 Gembloux</span>
+                    <span>N° BCE : 0712.872.695.</span>
+                    <span>BE25 0689 3218 5282.</span>
+                    <span>+32 476/24.78.26.</span>
+                </div>
             </div>
-            <div class="center-block form">
-                <div>
+            <div class="right-box">
+                <div class="input-line">
                     <input type="text" id="name"
                            size="30" placeholder="Name" required>
                     <input type="text" id="lastname"
                            size="30" placeholder="Prénom" required>
                 </div>
-                <div>
+                <div class="input-line">
                     <input type="email" id="email"
                            size="30" placeholder="Email" required>
                     <input type="tel" id="tel"
