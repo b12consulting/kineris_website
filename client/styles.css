@@ -118,7 +118,10 @@ html, body {
   display: flex;
   justify-content: center; }
   .wrapper .container {
-    width: 80%; }
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
     .wrapper .container .section-title {
       color: white;
       font-weight: bold;
@@ -216,7 +219,8 @@ input {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  padding-top: 16px; }
+  padding-top: 16px;
+  padding-bottom: 16px; }
   .team .pic-julie {
     width: 45%; }
     .team .pic-julie img {
@@ -326,9 +330,18 @@ input {
     justify-content: space-between; }
     .footer .content .left-box {
       width: 50%; }
-      .footer .content .left-box .address-blox {
+      .footer .content .left-box .address-box {
         display: flex;
         flex-direction: column; }
+        .footer .content .left-box .address-box .title {
+          margin-bottom: 10px;
+          font-weight: bold; }
+        .footer .content .left-box .address-box .content {
+          display: flex;
+          flex-direction: column;
+          line-height: 1.5em; }
+          .footer .content .left-box .address-box .content a {
+            color: #37bdaf; }
     .footer .content .right-box {
       margin-top: 16px;
       width: 50%;
@@ -351,7 +364,8 @@ input {
           width: 70px;
           text-transform: uppercase;
           font-weight: 600;
-          cursor: pointer; }
+          cursor: pointer;
+          margin-top: 10px; }
       .footer .content .right-box textarea {
         max-width: 99%;
         min-width: 99%;
@@ -385,6 +399,11 @@ input {
     height: 400px; }
     .home-view #switch-txt {
       font-size: 25px; }
+
+  .team {
+    flex-direction: column; }
+    .team .pic-julie {
+      width: 250px !important; }
 
   .massage-box {
     flex-direction: column; }

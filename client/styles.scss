@@ -170,6 +170,9 @@ html,body {
 
     .container {
         width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
         .section-title {
             color: white;
@@ -294,6 +297,7 @@ input {
     width: 100%;
     align-items: center;
     padding-top: 16px;
+    padding-bottom: 16px;
 
     .pic-julie {
         width: 45%;
@@ -473,9 +477,25 @@ input {
         .left-box {
             width: 50%;
 
-            .address-blox {
+            .address-box {
                 display: flex;
                 flex-direction: column;
+
+                .title {
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                }
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    line-height: 1.5em;
+
+                    a {
+                        color: $primary-green;
+                    }
+
+                }
             }
         }
 
@@ -508,6 +528,7 @@ input {
                     text-transform: uppercase;
                     font-weight: 600;
                     cursor: pointer;
+                    margin-top: 10px;
                 }
             }
 
@@ -556,6 +577,14 @@ input {
 
         #switch-txt {
             font-size: 25px;
+        }
+    }
+
+    .team {
+        flex-direction: column;
+
+        .pic-julie {
+            width: 250px !important;
         }
     }
 
