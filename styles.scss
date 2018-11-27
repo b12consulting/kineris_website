@@ -9,6 +9,27 @@ $light-grey: #f4f4f4;
 html,body {
     padding: 0;
     margin: 0;
+    font-family: catamaranmedium;
+    line-height: 1.3em;
+}
+
+@font-face {
+    font-family: 'catamaranthin';
+    src: url('/assets/fonts/catamaran-thin-webfont.woff2') format('woff2'),
+    url('assets/fonts/catamaran-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'catamaranmedium';
+    src: url('assets/fonts/catamaran-medium-webfont.woff2') format('woff2'),
+    url('assets/fonts/catamaran-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 /* RESPONSIVE MENU */
@@ -209,6 +230,8 @@ input {
     #flip {
         height:50px;
         overflow:hidden;
+        font-family: sans-serif;
+        line-height: 1em;
 
         .green {
             color: $primary-green;
@@ -340,10 +363,6 @@ input {
 
             .ic {
                 width: 100px;
-            }
-
-            p {
-                text-align: left;
             }
         }
 
