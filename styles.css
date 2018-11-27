@@ -263,20 +263,24 @@ input {
   border-top: solid 1px #37bdaf;
   padding-top: 16px;
   padding-bottom: 16px; }
-  .number-wrapper .number {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-    .number-wrapper .number .number-box {
-      display: block;
-      text-align: center;
-      width: 33%; }
-      .number-wrapper .number .number-box .ic {
-        width: 100px; }
-    .number-wrapper .number .padding {
-      padding: 0 16px; }
-  .number-wrapper .legend {
-    font-size: 12px; }
+  .number-wrapper .container {
+    padding: 30px 0; }
+    .number-wrapper .container .number {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .number-wrapper .container .number .number-box {
+        display: block;
+        text-align: center;
+        width: 33%; }
+        .number-wrapper .container .number .number-box .ic {
+          width: 100px; }
+      .number-wrapper .container .number .padding {
+        padding: 0 16px; }
+    .number-wrapper .container .legend {
+      font-size: 12px;
+      margin-top: 40px;
+      line-height: 1em; }
 
 .services .ergo-box {
   display: flex;
@@ -300,20 +304,30 @@ input {
   color: #4b3659;
   text-transform: uppercase;
   font-size: 16px; }
-.services .massage-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  .services .massage-box .massage-content {
-    color: white;
-    width: 50%; }
-    .services .massage-box .massage-content .txt {
-      max-width: 500px; }
-  .services .massage-box .ic-massage {
-    width: 50%;
-    padding-left: 50px; }
-    .services .massage-box .ic-massage img {
-      width: 170px; }
+.services .massage-assis {
+  padding: 30px 0; }
+  .services .massage-assis .massage-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .services .massage-assis .massage-box .massage-content {
+      color: white;
+      width: 50%; }
+      .services .massage-assis .massage-box .massage-content .txt {
+        max-width: 500px; }
+        .services .massage-assis .massage-box .massage-content .txt .content-title {
+          font-size: 14px;
+          text-transform: uppercase;
+          color: #4b3659;
+          font-weight: bolder; }
+        .services .massage-assis .massage-box .massage-content .txt .txt-box {
+          margin-top: 5px;
+          margin-bottom: 20px; }
+    .services .massage-assis .massage-box .ic-massage {
+      width: 50%;
+      padding-left: 50px; }
+      .services .massage-assis .massage-box .ic-massage img {
+        width: 170px; }
 .services .strech-box {
   display: flex;
   justify-content: space-between;
@@ -465,8 +479,14 @@ input {
     .team .des-julie {
       width: 100% !important; }
       .team .des-julie .ic {
-        width: 60px;
-        padding: 0 10px; }
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 33%; }
+      .team .des-julie img {
+        width: 70% !important; }
     .team .pic-julie {
       width: 250px !important; }
 
@@ -516,13 +536,25 @@ input {
       width: 50%;
       display: flex;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
       .number-wrapper .container .number .number-box p {
         max-width: 200px; }
     .number-wrapper .container .number .padding {
       padding: 0; } }
 @media screen and (max-width: 400px) {
   .services .ergo-box .right-box img {
-    width: 100%; } }
+    width: 100%; }
+
+  .team .des-julie {
+    width: 100% !important; }
+    .team .des-julie .ic-title {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .team .des-julie .ic-title .ic {
+        width: 100%; }
+      .team .des-julie .ic-title img {
+        width: 40% !important; } }
 
 /*# sourceMappingURL=styles.css.map */
