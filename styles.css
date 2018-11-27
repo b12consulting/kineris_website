@@ -16,6 +16,11 @@ html, body {
   src: url("assets/fonts/catamaran-medium-webfont.woff2") format("woff2"), url("assets/fonts/catamaran-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'catamaranbold';
+  src: url("assets/fonts/catamaran-bold-webfont.woff2") format("woff2"), url("assets/fonts/catamaran-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 /* RESPONSIVE MENU */
 .header {
   background-color: #fff;
@@ -133,9 +138,9 @@ html, body {
     width: 80%; }
     .wrapper .container .section-title {
       color: white;
-      font-weight: bold;
       text-transform: uppercase;
-      font-size: 15px; }
+      font-size: 20px;
+      font-family: catamaranbold; }
 
 .row {
   display: flex;
