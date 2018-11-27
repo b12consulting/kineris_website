@@ -338,31 +338,29 @@
                 </div>
             </div>
             <div class="right-box">
-                <div class="input-line">
-                    <input type="text" id="name"
-                           size="30" placeholder="Nom" required>
-                    <input type="text" id="lastname"
-                           size="30" placeholder="Prénom" required>
-                </div>
-                <div class="input-line">
-                    <input type="email" id="email"
-                           size="30" placeholder="Email" required>
-                    <input type="tel" id="tel"
-                           size="30" placeholder="Téléphone" required>
-                </div>
-                <div>
-                    <textarea placeholder="Message"></textarea>
-                </div>
-                <div class="btn-footer">
-                    <div class="condition-cgv">
-                        <input type="checkbox" id="cgv" name="cgv"
-                               checked>
-                        <label for="cgv">J'ai lu et j'accepte les <a class="c-green" href="conditions">CGV</a></label>
+                <form action="https://formspree.io/wendy.truyens@b12-consulting.com" method="POST">
+                    <div class="input-line">
+                        <input type="text" id="name" placeholder="Nom" name="nom" />
+                        <input type="text" id="lastname" placeholder="Prénom" name="prenom" />
                     </div>
-                </div>
-                <div class="btn-footer">
-                    <button type="submit">Envoyer</button>
-                </div>
+                    <div class="input-line">
+                        <input type="email" id="email" name="_replyto" placeholder="email" />
+                        <input type="tel" id="tel" placeholder="Téléphone" />
+                    </div>
+                    <div>
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="btn-footer">
+                        <div class="condition-cgv">
+                            <input type="checkbox" id="cgv" name="cgv"
+                                   checked>
+                            <label for="cgv">J'ai lu et j'accepte les <a class="c-green" href="conditions">CGV</a></label>
+                        </div>
+                    </div>
+                    <div class="btn-footer">
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
