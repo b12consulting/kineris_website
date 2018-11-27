@@ -135,7 +135,7 @@ html, body {
   display: flex;
   justify-content: center; }
   .wrapper .container {
-    width: 80%; }
+    width: 60%; }
     .wrapper .container .section-title {
       color: white;
       text-transform: uppercase;
@@ -212,7 +212,8 @@ input {
   height: 600px; }
 
 .problem .center-block p {
-  max-width: 350px; }
+  max-width: 350px;
+  text-align: center; }
 .problem .conclusion {
   display: flex;
   justify-content: center;
@@ -249,7 +250,12 @@ input {
       display: flex;
       justify-content: space-between; }
       .team .des-julie .ic-title .ic {
-        width: 100px; }
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; }
+        .team .des-julie .ic-title .ic img {
+          width: 150px; }
     .team .des-julie .content-julie {
       width: 100%; }
 
@@ -436,6 +442,9 @@ input {
 
   .header .menu-icon {
     display: none; } }
+@media (max-width: 1000px) {
+  .wrapper .container {
+    width: 80% !important; } }
 @media screen and (max-width: 750px) {
   .row {
     display: flex;
