@@ -432,7 +432,7 @@ input {
       .footer .content .right-box .btn-footer {
         display: flex;
         justify-content: flex-end; }
-        .footer .content .right-box .btn-footer input {
+        .footer .content .right-box .btn-footer #submit {
           background-color: #37bdaf;
           color: white;
           border: solid 1px white;
