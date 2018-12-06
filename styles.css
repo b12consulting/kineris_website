@@ -435,10 +435,10 @@ input {
           cursor: pointer;
           margin-top: 10px; }
       .footer .content .right-box textarea {
-        max-width: 99%;
         min-width: 99%;
         min-height: 150px;
         border-radius: 5px;
+        padding: 5px;
         border: solid 1px #37bdaf; }
 
 /* MENU BURGER */
