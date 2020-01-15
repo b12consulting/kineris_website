@@ -398,6 +398,21 @@ input {
 .tarif .container {
   margin-top: 16px; }
 
+.rdv {
+  padding: 20px 0; }
+  .rdv .rdv-button {
+    background-color: #37bdaf;
+    border: solid 1px #37bdaf;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    margin: 10px 10px;
+    text-align: center; }
+    .rdv .rdv-button:hover {
+      background-color: white;
+      border: solid 1px #4b3659;
+      color: #4b3659; }
+
 .footer {
   color: white;
   padding-bottom: 16px; }
@@ -454,7 +469,7 @@ input {
         border: solid 1px #37bdaf; }
 
 /* MENU BURGER */
-@media (min-width: 1010px) {
+@media (min-width: 1087px) {
   .header li {
     float: left; }
 
