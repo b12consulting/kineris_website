@@ -93,7 +93,7 @@ html, body {
 
 /* menu btn */
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px; }
+  max-height: 420px; }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent; }
