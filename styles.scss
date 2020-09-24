@@ -11,6 +11,8 @@ html,body {
     margin: 0;
     font-family: catamaranmedium;
     line-height: 1.3em;
+    height: 100%;
+    min-height: 100%;
 }
 
 @font-face {
@@ -315,6 +317,10 @@ input {
     }
 }
 
+.actif-section {
+    color: $primary-green !important;
+}
+
 .id-section {
     height: 59px;
 }
@@ -589,8 +595,18 @@ input {
     }
 }
 
+#contact {
+    height: calc(100% - 119px);
+
+    .container {
+        height: 100%;
+    }
+}
+
 .rdv {
     padding: 20px 0;
+    padding-top: 60px;
+    height: calc(100% - 60px);
 
     .rdv-button {
         background-color: $primary-green;
@@ -605,6 +621,74 @@ input {
             background-color: white;
             border: solid 1px $primary-purple;
             color: $primary-purple;
+        }
+    }
+}
+
+.kine {
+    padding-top: 60px;
+
+    .intro {
+        padding: 15px 0;
+        margin-bottom: 20px;
+
+    }
+
+    .sub-title {
+        color: $primary-green;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .row {
+        .left-box {
+            width: 60%;
+            margin-right: 20px;
+        }
+
+        .right-box {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            background-color: $primary-green;
+            padding: 13px;
+
+            .DTM-title {
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+        }
+    }
+
+    .origines {
+        margin-top: 20px;
+    }
+
+    .consultation {
+        margin-top: 20px;
+
+        .title {
+            background-color: $primary-green;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 3px 5px;
+            padding-bottom: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box-consult {
+            border: solid 1px $primary-green;
+            width: fit-content;
+        }
+
+        .content {
+            padding: 5px;
         }
     }
 }

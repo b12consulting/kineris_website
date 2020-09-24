@@ -4,7 +4,9 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: catamaranmedium;
-  line-height: 1.3em; }
+  line-height: 1.3em;
+  height: 100%;
+  min-height: 100%; }
 
 @font-face {
   font-family: 'catamaranthin';
@@ -226,6 +228,9 @@ input {
       color: #37bdaf;
       font-weight: bold; }
 
+.actif-section {
+  color: #37bdaf !important; }
+
 .id-section {
   height: 59px; }
 
@@ -397,8 +402,15 @@ input {
 .tarif .container {
   margin-top: 16px; }
 
+#contact {
+  height: calc(100% - 119px); }
+  #contact .container {
+    height: 100%; }
+
 .rdv {
-  padding: 20px 0; }
+  padding: 20px 0;
+  padding-top: 60px;
+  height: calc(100% - 60px); }
   .rdv .rdv-button {
     background-color: #37bdaf;
     border: solid 1px #37bdaf;
@@ -411,6 +423,50 @@ input {
       background-color: white;
       border: solid 1px #4b3659;
       color: #4b3659; }
+
+.kine {
+  padding-top: 60px; }
+  .kine .intro {
+    padding: 15px 0;
+    margin-bottom: 20px; }
+  .kine .sub-title {
+    color: #37bdaf;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px; }
+  .kine .row .left-box {
+    width: 60%;
+    margin-right: 20px; }
+  .kine .row .right-box {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #37bdaf;
+    padding: 13px; }
+    .kine .row .right-box .DTM-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center; }
+  .kine .origines {
+    margin-top: 20px; }
+  .kine .consultation {
+    margin-top: 20px; }
+    .kine .consultation .title {
+      background-color: #37bdaf;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 3px 5px;
+      padding-bottom: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .kine .consultation .box-consult {
+      border: solid 1px #37bdaf;
+      width: fit-content; }
+    .kine .consultation .content {
+      padding: 5px; }
 
 .footer {
   color: white;
