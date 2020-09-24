@@ -412,6 +412,9 @@ input {
       background-color: white;
       border: solid 1px #4b3659;
       color: #4b3659; }
+  .rdv .link-pdf {
+    padding: 0 10px;
+    text-align: center; }
 
 .footer {
   color: white;
