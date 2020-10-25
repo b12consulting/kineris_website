@@ -426,6 +426,37 @@ input {
 
 .kine {
   padding-top: 60px; }
+  .kine .julie {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; }
+    .kine .julie .photo {
+      width: 300px; }
+      .kine .julie .photo img {
+        width: 300px; }
+    .kine .julie .name {
+      font-size: 25px;
+      font-weight: bold;
+      margin-top: 10px; }
+    .kine .julie .num {
+      margin-top: 10px;
+      color: #37bdaf; }
+      .kine .julie .num a {
+        color: #37bdaf; }
+    .kine .julie .rdv {
+      background-color: #37bdaf;
+      color: white;
+      padding: 5px;
+      cursor: pointer !important;
+      width: fit-content;
+      margin-top: 10px; }
+      .kine .julie .rdv a {
+        color: white !important;
+        text-decoration: none;
+        cursor: pointer !important; }
   .kine .intro {
     padding: 15px 0;
     margin-bottom: 20px; }
