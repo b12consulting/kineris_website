@@ -155,6 +155,20 @@ input {
   height: 20px;
   margin-bottom: 16px; }
 
+.home-btn {
+  background-color: #37bdaf;
+  border: solid 1px #37bdaf;
+  color: white;
+  text-decoration: none;
+  padding: 5px 16px;
+  margin: 10px 10px;
+  text-align: center;
+  cursor: pointer; }
+  .home-btn:hover {
+    background-color: white;
+    border: solid 1px #4b3659;
+    color: #4b3659; }
+
 /* ANIMATION SWITCH */
 #switch-txt {
   text-transform: uppercase;
@@ -208,10 +222,13 @@ input {
   flex-direction: column;
   align-items: center;
   background-image: url("assets/images/bg-home-view.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
-  height: 600px; }
+  height: 100vh; }
+  .home-view .home-link {
+    margin-top: 20px; }
 
 .problem .center-block p {
   max-width: 350px;
@@ -304,6 +321,24 @@ input {
       max-width: 350px; }
     .services .ergo-box .right-box .content {
       max-width: 500px; }
+.services .gym-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .services .gym-box .left-box {
+    width: 50%; }
+    .services .gym-box .left-box .picture {
+      width: 100%; }
+    .services .gym-box .left-box .content {
+      max-width: 500px; }
+  .services .gym-box .right-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px 50px; }
+    .services .gym-box .right-box img {
+      max-width: 450px; }
 .services .sub-title {
   color: #4b3659;
   text-transform: uppercase;
@@ -425,7 +460,35 @@ input {
       color: #4b3659; }
 
 .kine {
-  padding-top: 60px; }
+  padding-top: 60px;
+  padding-bottom: 30px; }
+  .kine .tab-row {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 100%; }
+  .kine .tab-selected {
+    background-color: #37bdaf;
+    border: solid 1px white;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center; }
+  .kine .tab {
+    border: solid 1px white;
+    background-color: #4b3659;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer; }
+  .kine #tab1 {
+    border: solid 1px white;
+    background-color: #37bdaf;
+    padding: 10px;
+    color: white; }
   .kine .julie {
     display: flex;
     flex-direction: column;
@@ -440,14 +503,15 @@ input {
     .kine .julie .name {
       font-size: 25px;
       font-weight: bold;
-      margin-top: 10px; }
+      margin-top: 10px;
+      color: #4b3659; }
     .kine .julie .num {
       margin-top: 10px;
       color: #37bdaf; }
       .kine .julie .num a {
         color: #37bdaf; }
     .kine .julie .rdv {
-      background-color: #37bdaf;
+      background-color: #4b3659;
       color: white;
       padding: 5px;
       cursor: pointer !important;
@@ -461,7 +525,7 @@ input {
     padding: 15px 0;
     margin-bottom: 20px; }
   .kine .sub-title {
-    color: #37bdaf;
+    color: #4b3659;
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 10px; }
@@ -472,7 +536,7 @@ input {
     width: 40%;
     display: flex;
     flex-direction: column;
-    background-color: #37bdaf;
+    background-color: #4b3659;
     padding: 13px; }
     .kine .row .right-box .DTM-title {
       font-size: 18px;
@@ -484,7 +548,7 @@ input {
   .kine .consultation {
     margin-top: 20px; }
     .kine .consultation .title {
-      background-color: #37bdaf;
+      background-color: #4b3659;
       color: white;
       font-weight: bold;
       font-size: 18px;
@@ -494,7 +558,7 @@ input {
       justify-content: center;
       align-items: center; }
     .kine .consultation .box-consult {
-      border: solid 1px #37bdaf;
+      border: solid 1px #4b3659;
       width: fit-content; }
     .kine .consultation .content {
       padding: 5px; }

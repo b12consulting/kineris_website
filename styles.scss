@@ -227,6 +227,23 @@ input {
     margin-bottom: 16px;
 }
 
+.home-btn {
+    background-color: $primary-green;
+    border: solid 1px $primary-green;
+    color: white;
+    text-decoration: none;
+    padding: 5px 16px;
+    margin: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        border: solid 1px $primary-purple;
+        color: $primary-purple;
+    }
+}
+
 /* ANIMATION SWITCH */
 
 #switch-txt {
@@ -284,10 +301,15 @@ input {
     flex-direction: column;
     align-items: center;
     background-image: url("assets/images/bg-home-view.png");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
-    height: 600px;
+    height: 100vh;
+
+    .home-link {
+        margin-top: 20px;
+    }
 }
 
 .problem {
@@ -433,6 +455,36 @@ input {
 
             .content {
                 max-width: 500px;
+            }
+        }
+    }
+
+    .gym-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left-box {
+            width: 50%;
+
+            .picture {
+                width: 100%;
+            }
+
+            .content {
+                max-width: 500px;
+            }
+        }
+
+        .right-box {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 16px 50px;
+
+            img {
+                max-width: 450px;
             }
         }
     }
@@ -627,6 +679,43 @@ input {
 
 .kine {
     padding-top: 60px;
+    padding-bottom: 30px;
+
+    .tab-row {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .tab-selected {
+        background-color: $primary-green;
+        border: solid 1px white;
+        color: white;
+        width: 200px;
+        padding: 5px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .tab {
+        border: solid 1px white;
+        background-color: $primary-purple;
+        color: white;
+        width: 200px;
+        padding: 5px;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    #tab1 {
+        border: solid 1px white;
+        background-color: $primary-green;
+        padding: 10px;
+        color: white;
+    }
 
     .julie {
         display: flex;
@@ -648,6 +737,7 @@ input {
             font-size: 25px;
             font-weight: bold;
             margin-top: 10px;
+            color: $primary-purple;
         }
 
         .num {
@@ -660,7 +750,7 @@ input {
         }
 
         .rdv {
-            background-color: $primary-green;
+            background-color: $primary-purple;
             color: white;
             padding: 5px;
             cursor: pointer !important;
@@ -673,6 +763,10 @@ input {
                 cursor: pointer !important;
             }
         }
+
+        .tab1 {
+
+        }
     }
 
     .intro {
@@ -682,7 +776,7 @@ input {
     }
 
     .sub-title {
-        color: $primary-green;
+        color: $primary-purple;
         font-weight: bold;
         font-size: 18px;
         margin-bottom: 10px;
@@ -698,7 +792,7 @@ input {
             width: 40%;
             display: flex;
             flex-direction: column;
-            background-color: $primary-green;
+            background-color: $primary-purple;
             padding: 13px;
 
             .DTM-title {
@@ -718,7 +812,7 @@ input {
         margin-top: 20px;
 
         .title {
-            background-color: $primary-green;
+            background-color: $primary-purple;
             color: white;
             font-weight: bold;
             font-size: 18px;
@@ -730,7 +824,7 @@ input {
         }
 
         .box-consult {
-            border: solid 1px $primary-green;
+            border: solid 1px $primary-purple;
             width: fit-content;
         }
 
