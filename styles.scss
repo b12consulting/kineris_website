@@ -169,6 +169,10 @@ html,body {
 
 /* CUSTOM */
 
+a {
+    color: $primary-green;
+}
+
 .bg-purple {
     background-color: $primary-purple;
 }
@@ -661,19 +665,49 @@ input {
     height: calc(100% - 60px);
 
     .rdv-button {
+        margin-top: 20px;
         background-color: $primary-green;
         border: solid 1px $primary-green;
         color: white;
         text-decoration: none;
         padding: 10px 16px;
-        margin: 10px 10px;
+        width: fit-content;
         text-align: center;
+        cursor: pointer;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
 
         &:hover {
             background-color: white;
             border: solid 1px $primary-purple;
             color: $primary-purple;
+
+            a {
+                color: $primary-purple;
+            }
         }
+    }
+
+    .center-section {
+        margin: 20px;
+    }
+
+    .center-name {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+        color: $primary-purple;
+        border-bottom: solid 2px $primary-green;
+        padding-bottom: 5px;
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+
+    .row {
+        flex-wrap: wrap;
     }
 }
 
@@ -770,8 +804,11 @@ input {
     }
 
     .intro {
-        padding: 15px 0;
-        margin-bottom: 20px;
+        padding: 15px;
+
+        .row {
+            align-items: center;
+        }
 
     }
 
@@ -831,6 +868,10 @@ input {
         .content {
             padding: 5px;
         }
+    }
+
+    .illu {
+        margin-right: 20px;
     }
 }
 
@@ -1060,6 +1101,13 @@ input {
                 width: 100%;
                 padding: 0;
             }
+        }
+    }
+
+    .rdv {
+        .row {
+            align-items: center;
+
         }
     }
 }
