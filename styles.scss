@@ -872,6 +872,8 @@ input {
 
     .illu {
         margin-right: 20px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -952,6 +954,31 @@ input {
                 padding: 5px;
                 border: solid 1px $primary-green
             }
+        }
+    }
+}
+
+.value {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+
+    .ic {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        img {
+            width: 150px;
+        }
+
+        .txt {
+            margin-top: 10px;
         }
     }
 }
@@ -1108,6 +1135,12 @@ input {
         .row {
             align-items: center;
 
+        }
+    }
+
+    .kine {
+        .row {
+            align-items: center;
         }
     }
 }
