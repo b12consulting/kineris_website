@@ -173,6 +173,10 @@ a {
     color: $primary-green;
 }
 
+.m-r-10 {
+    margin-right: 10px;
+}
+
 .bg-purple {
     background-color: $primary-purple;
 }
@@ -933,7 +937,7 @@ input {
                 flex-direction: column;
                 align-items: flex-end;
 
-                #submit {
+                .submit {
                     background-color: $primary-green;
                     color: white;
                     border: solid 1px white;
@@ -944,11 +948,22 @@ input {
                     font-weight: 600;
                     cursor: pointer;
                     margin-top: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+
+                    button {
+                        background-color: transparent;
+                        border: none;
+                        color: white;
+                    }
                 }
             }
 
             textarea {
-                min-width: 99%;
+                width: calc(100% - 9px);
                 min-height: 150px;
                 border-radius: 5px;
                 padding: 5px;

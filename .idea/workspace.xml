@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49afaccb-2fe1-4e1c-a807-1ae5ccc93b27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/massage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cervico-maxilo-faciale.html" beforeDir="false" afterPath="$PROJECT_DIR$/cervico-maxilo-faciale.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinesitherapie-julie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kinesitherapie-julie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinesitherapie-megan.html" beforeDir="false" afterPath="$PROJECT_DIR$/kinesitherapie-megan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinesitherapie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kinesitherapie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rdv.html" beforeDir="false" afterPath="$PROJECT_DIR$/rdv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
@@ -24,10 +19,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.64424175">
+    <splitter split-orientation="horizontal" split-proportion="0.6660066">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="482">
@@ -42,8 +37,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/rdv.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="548">
-                  <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+                <state relative-caret-position="595">
+                  <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -96,11 +91,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/contact.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+                <state relative-caret-position="291">
+                  <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -112,8 +107,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="610">
-                  <caret line="966" column="19" selection-start-line="966" selection-start-column="19" selection-end-line="966" selection-end-column="19" />
+                <state relative-caret-position="659">
+                  <caret line="959" column="29" selection-start-line="959" selection-start-column="29" selection-end-line="959" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -143,6 +138,7 @@
       <find>rdv</find>
       <find>illu</find>
       <find>meg</find>
+      <find>placeholder=&quot;Message&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,22 +147,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rdv.html" />
         <option value="$PROJECT_DIR$/massage.html" />
         <option value="$PROJECT_DIR$/cervico-maxilo-faciale.html" />
         <option value="$PROJECT_DIR$/kinesitherapie-megan.html" />
         <option value="$PROJECT_DIR$/kinesitherapie-julie.html" />
         <option value="$PROJECT_DIR$/kinesitherapie.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/rdv.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/styles.scss" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1681" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1919" />
+    <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -222,18 +217,18 @@
       <workItem from="1605207715565" duration="7843000" />
       <workItem from="1605729386141" duration="7352000" />
       <workItem from="1606212132376" duration="592000" />
-      <workItem from="1610806595366" duration="1100000" />
+      <workItem from="1610806595366" duration="1933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28159000" />
+    <option name="totallyTimeSpent" value="28992000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1681" y="23" width="1919" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07586934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08679928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -256,13 +251,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="546" column="9" selection-start-line="546" selection-start-column="9" selection-end-line="546" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kinesitherapie.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
@@ -301,20 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rdv.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -325,10 +299,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rdv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="628" column="35" selection-start-line="628" selection-start-column="35" selection-end-line="628" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="966" column="19" selection-start-line="966" selection-start-column="19" selection-end-line="966" selection-end-column="19" />
+        <state relative-caret-position="659">
+          <caret line="959" column="29" selection-start-line="959" selection-start-column="29" selection-end-line="959" selection-end-column="29" />
         </state>
       </provider>
     </entry>

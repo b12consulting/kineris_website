@@ -114,6 +114,9 @@ html, body {
 a {
   color: #37bdaf; }
 
+.m-r-10 {
+  margin-right: 10px; }
+
 .bg-purple {
   background-color: #4b3659; }
 
@@ -628,7 +631,7 @@ input {
         justify-content: flex-end;
         flex-direction: column;
         align-items: flex-end; }
-        .footer .content .right-box .btn-footer #submit {
+        .footer .content .right-box .btn-footer .submit {
           background-color: #37bdaf;
           color: white;
           border: solid 1px white;
@@ -638,9 +641,18 @@ input {
           text-transform: uppercase;
           font-weight: 600;
           cursor: pointer;
-          margin-top: 10px; }
+          margin-top: 10px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          color: white; }
+          .footer .content .right-box .btn-footer .submit button {
+            background-color: transparent;
+            border: none;
+            color: white; }
       .footer .content .right-box textarea {
-        min-width: 99%;
+        width: calc(100% - 9px);
         min-height: 150px;
         border-radius: 5px;
         padding: 5px;
