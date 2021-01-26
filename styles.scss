@@ -667,6 +667,19 @@ input {
     padding: 20px 0;
     padding-top: 60px;
     height: calc(100% - 60px);
+    background-color: $primary-green;
+
+    .container {
+        background-color: white;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+
+        .content {
+            width: 60%;
+        }
+    }
 
     .rdv-button {
         margin-top: 20px;
@@ -693,6 +706,11 @@ input {
                 color: $primary-purple;
             }
         }
+    }
+
+    .title-section {
+        font-size: 18px;
+        margin-top: 20px;
     }
 
     .center-section {
