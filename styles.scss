@@ -81,6 +81,10 @@ html,body {
         }
     }
 
+    .selected {
+        color: $primary-green !important;
+    }
+
     .menu {
         clear: both;
         max-height: 0;
@@ -191,6 +195,12 @@ a {
 
 .c-purple {
     color: $primary-purple;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
 }
 
 .centered-txt {
@@ -719,6 +729,14 @@ input {
 
     .center-section {
         margin: 20px;
+
+        .ic-julie, .ic-meg {
+            margin-right: 10px;
+
+            img {
+                width: 50px;
+            }
+        }
     }
 
     .center-name {
@@ -734,6 +752,12 @@ input {
 
     .row {
         flex-wrap: wrap;
+    }
+
+    .col {
+        li {
+            color: $primary-green;
+        }
     }
 }
 
@@ -1182,6 +1206,20 @@ input {
     .kine {
         .row {
             align-items: center;
+        }
+    }
+
+    .julie-meg {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .value {
+        font-size: 14px !important;
+        .ic {
+           img {
+               width: 80px;
+           }
         }
     }
 }

@@ -50,6 +50,8 @@ html, body {
     .header li a:hover {
       background-color: #f4f4f4;
       color: #37bdaf; }
+  .header .selected {
+    color: #37bdaf !important; }
   .header .menu {
     clear: both;
     max-height: 0;
@@ -128,6 +130,11 @@ a {
 
 .c-purple {
   color: #4b3659; }
+
+.col {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0; }
 
 .centered-txt {
   text-align: center; }
@@ -488,6 +495,10 @@ input {
     margin-top: 20px; }
   .rdv .center-section {
     margin: 20px; }
+    .rdv .center-section .ic-julie, .rdv .center-section .ic-meg {
+      margin-right: 10px; }
+      .rdv .center-section .ic-julie img, .rdv .center-section .ic-meg img {
+        width: 50px; }
   .rdv .center-name {
     text-transform: uppercase;
     font-size: 18px;
@@ -499,6 +510,8 @@ input {
     margin-bottom: 10px; }
   .rdv .row {
     flex-wrap: wrap; }
+  .rdv .col li {
+    color: #37bdaf; }
 
 .kine {
   padding-top: 60px;
@@ -786,7 +799,16 @@ input {
     align-items: center; }
 
   .kine .row {
-    align-items: center; } }
+    align-items: center; }
+
+  .julie-meg {
+    display: flex;
+    flex-direction: row !important; }
+
+  .value {
+    font-size: 14px !important; }
+    .value .ic img {
+      width: 80px; } }
 @media screen and (max-width: 600px) {
   .number-wrapper .container .number {
     flex-direction: column;
