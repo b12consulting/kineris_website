@@ -175,6 +175,9 @@ input {
     border: solid 1px #4b3659;
     color: #4b3659; }
 
+.not-allow {
+  cursor: not-allowed !important; }
+
 /* ANIMATION SWITCH */
 #switch-txt {
   text-transform: uppercase;
@@ -451,7 +454,7 @@ input {
 .rdv {
   padding: 20px 0;
   padding-top: 60px;
-  height: calc(100% - 60px);
+  min-height: 100%;
   background-color: #37bdaf; }
   .rdv .container {
     background-color: white;
@@ -548,14 +551,14 @@ input {
       color: #37bdaf; }
       .kine .julie .num a {
         color: #37bdaf; }
-    .kine .julie .rdv {
+    .kine .julie .rdv-btn {
       background-color: #4b3659;
       color: white;
       padding: 5px;
       cursor: pointer !important;
       width: fit-content;
       margin-top: 10px; }
-      .kine .julie .rdv a {
+      .kine .julie .rdv-btn a {
         color: white !important;
         text-decoration: none;
         cursor: pointer !important; }
@@ -605,6 +608,8 @@ input {
     margin-right: 20px;
     display: flex;
     flex-direction: column; }
+  .kine .row-center {
+    justify-content: center !important; }
 
 .footer {
   color: white;
