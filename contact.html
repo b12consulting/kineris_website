@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<header class="header">
+    <a href="./index.html" class="logo">
+        <img src="assets/images/logo-kineris.svg" width="120px"/>
+    </a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+        <li>
+            <a href="./index.html">Entreprise</a>
+        </li>
+        <li>
+            <a href="./kinesitherapie.html" class="nav-section">Kinésithérapie</a>
+        </li>
+        <li>
+            <a href="./rdv.html" class="nav-section">Rendez-vous</a>
+        </li>
+        <li>
+            <a href="./contact.html" class="nav-section selected">contact</a>
+        </li>
+    </ul>
+</header>
+
+<div class="id-section"></div>
+<div class="wrapper bg-purple">
+    <div class="container">
+        <h2 class="section-title bg-purple">contact</h2>
+    </div>
+</div>
+<div id="contact" class="wrapper bg-purple footer">
+    <div class="container">
+        <div class="content">
+            <div class="left-box">
+                <div class="address-box">
+                    <div class="title">Nos coordonnées complètes :</div>
+                    <div class="content">
+                        <a href="info@kineris.be">info@kineris.be</a>
+                        <span>31, Avenue du Levant <br /> 5030 Gembloux</span>
+                        <span>N° BCE : 0712.872.695.</span>
+                        <span>BE25 0689 3218 5282.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right-box">
+                <form action="https://formspree.io/info@kineris.be" method="POST" id="contactForm">
+                    <div class="input-line">
+                        <input class="m-r-10" type="text" id="name" placeholder="Nom" name="nom" />
+                        <input type="text" id="lastname" placeholder="Prénom" name="prenom" />
+                    </div>
+                    <div class="input-line">
+                        <input class="m-r-10" type="email" id="email" name="_replyto" placeholder="Email" />
+                        <input type="tel" id="tel" placeholder="Téléphone" />
+                    </div>
+                    <div>
+                        <textarea placeholder="Message" type="text" id="message" name="message"></textarea>
+                    </div>
+                    <div class="btn-footer">
+                        <div class="condition-cgv">
+                            <input type="checkbox" id="cgv" name="cgv">
+                            <label for="cgv">J'ai lu et j'accepte les conditions <a class="c-green" href="/assets/files/CGDV.pdf" download>CGV</a></label>
+                        </div>
+                    </div>
+                    <div class="btn-footer">
+                        <div id="alertform" style="display: none">
+                            <i>*Veuillez accepter les conditions GDV pour pouvoir soumettre le formulaire</i>
+                        </div>
+                    </div>
+                </form>
+                <div class="btn-footer">
+                    <div class="submit">
+                        <button id="submit" type="button">Envoyer</button>
+                    </div>
+                </div>
+                <script>
+                    const checkBox = document.getElementById("cgv");
+                    const button = document.getElementById("submit");
+                    const alertText = document.getElementById("alertform");
+                    const form = document.getElementById("contactForm");
+
+                    button.addEventListener("click", function (event) {
+                        if (checkBox.checked) {
+                            form.submit()
+                        } else {
+                            alertText.style.display = 'block';
+                        }
+                    })
+
+                    checkBox.addEventListener("click", function(event) {
+                        if (checkBox.checked) {
+                            alertText.style.display = 'none';
+                        }
+                        else {
+                            alertText.style.display = 'block';
+                        }
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="row">
+            <img src="assets/images/ic-contact.svg" width="50%">
+        </div>
+    </div>
+</div>
+</body>
+</html>
