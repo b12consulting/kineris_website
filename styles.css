@@ -243,8 +243,18 @@ input {
   background-position: center center;
   width: 100%;
   height: 100vh; }
+  .home-view .content {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
   .home-view .home-link {
-    margin-top: 20px; }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center; }
 
 .problem .center-block p {
   max-width: 350px;
@@ -562,7 +572,8 @@ input {
       font-size: 25px;
       font-weight: bold;
       margin-top: 10px;
-      color: #4b3659; }
+      color: #4b3659;
+      line-height: 1.2em; }
     .kine .julie .num {
       margin-top: 10px;
       color: #37bdaf; }
@@ -739,7 +750,7 @@ input {
     width: 100%; }
 
   .home-view {
-    height: 400px; }
+    height: 450px; }
     .home-view #switch-txt {
       font-size: 25px; }
 

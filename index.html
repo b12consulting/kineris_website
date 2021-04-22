@@ -3,6 +3,8 @@
 <head>
     <title>Kineris</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
+    <!-- important to fix zoom in mobile view -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 <body>
 
@@ -29,18 +31,20 @@
 </header>
 
 <div class="home-view">
-    <img src="assets/images/ic-kineris.svg" width="200px;" />
-    <p>Ensemble, construisons votre mieux Être !</p>
-    <div id=switch-txt>
-        <div id=flip>
-            <div><div>Mieux-être</div></div>
-            <div><div class="green">Développement</div></div>
-            <div><div>Prévenance</div></div>
+    <div class="content">
+        <img src="assets/images/ic-kineris.svg" width="200px;" />
+        <p>Ensemble, construisons votre mieux Être !</p>
+        <div id=switch-txt>
+            <div id=flip>
+                <div><div>Mieux-être</div></div>
+                <div><div class="green">Développement</div></div>
+                <div><div>Prévenance</div></div>
+            </div>
         </div>
-    </div>
-    <div class="home-link">
-        <a class="home-btn" href="#entreprise">Bien être en entreprise</a>
-        <a class="home-btn" href="./kinesitherapie.html">Kinésithérapie</a>
+        <div class="home-link">
+            <a class="home-btn" href="#entreprise">Bien être en entreprise</a>
+            <a class="home-btn" href="./kinesitherapie.html">Kinésithérapie</a>
+        </div>
     </div>
 </div>
 <div style="height: 60px; margin-top: -60px"  id="entreprise"></div>
