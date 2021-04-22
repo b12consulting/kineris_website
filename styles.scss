@@ -1200,6 +1200,20 @@ input {
         }
     }
 
+    .services {
+        .gym-box {
+            flex-direction: column !important;
+
+            .left-box {
+                width: 100%;
+            }
+
+            .right-box {
+                width: 100%;
+            }
+        }
+    }
+
     .footer {
         .content {
             flex-direction: column !important;

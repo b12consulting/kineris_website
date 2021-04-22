@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49afaccb-2fe1-4e1c-a807-1ae5ccc93b27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cervico-maxilo-faciale.html" beforeDir="false" afterPath="$PROJECT_DIR$/cervico-maxilo-faciale.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinesitherapie-julie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kinesitherapie-julie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinesitherapie-megan.html" beforeDir="false" afterPath="$PROJECT_DIR$/kinesitherapie-megan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinesitherapie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kinesitherapie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/massage.html" beforeDir="false" afterPath="$PROJECT_DIR$/massage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rdv.html" beforeDir="false" afterPath="$PROJECT_DIR$/rdv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
@@ -28,11 +19,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5214988">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="113" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="113" />
+                <state relative-caret-position="286">
+                  <caret line="166" column="8" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -40,11 +31,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/rdv.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="113" selection-start-line="4" selection-start-column="113" selection-end-line="4" selection-end-column="113" />
+                <state relative-caret-position="407">
+                  <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -56,8 +47,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="552">
-                  <caret line="842" column="31" selection-start-line="842" selection-start-column="31" selection-end-line="842" selection-end-column="31" />
+                <state relative-caret-position="190">
+                  <caret line="1204" column="46" lean-forward="true" selection-start-line="1204" selection-start-column="46" selection-end-line="1204" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -99,6 +90,7 @@
       <find>fixed</find>
       <find>.link</find>
       <find>home-view</find>
+      <find>gym-box</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,9 +113,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1680" />
-    <option name="y" value="23" />
+    <option name="y" value="25" />
     <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -181,12 +173,12 @@
       <workItem from="1610806595366" duration="3975000" />
       <workItem from="1611671973293" duration="3923000" />
       <workItem from="1611752728925" duration="2139000" />
-      <workItem from="1619115572266" duration="1464000" />
+      <workItem from="1619115572266" duration="1944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39797000" />
+    <option name="totallyTimeSpent" value="40277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="25" width="1920" height="1055" extended-state="6" />
@@ -257,16 +249,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="113" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="113" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/massage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -276,15 +258,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rdv.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="113" selection-start-line="4" selection-start-column="113" selection-end-line="4" selection-end-column="113" />
+        <state relative-caret-position="407">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="166" column="8" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="842" column="31" selection-start-line="842" selection-start-column="31" selection-end-line="842" selection-end-column="31" />
+        <state relative-caret-position="190">
+          <caret line="1204" column="46" lean-forward="true" selection-start-line="1204" selection-start-column="46" selection-end-line="1204" selection-end-column="46" />
         </state>
       </provider>
     </entry>

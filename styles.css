@@ -802,6 +802,13 @@ input {
         padding: 0;
         width: 100% !important; }
 
+  .services .gym-box {
+    flex-direction: column !important; }
+    .services .gym-box .left-box {
+      width: 100%; }
+    .services .gym-box .right-box {
+      width: 100%; }
+
   .footer .content {
     flex-direction: column !important; }
     .footer .content .left-box {
