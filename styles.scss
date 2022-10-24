@@ -601,6 +601,30 @@ input {
     }
 }
 
+.pilate-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .pilate-content {
+        width: 50%;
+    }
+
+    .ic-content {
+        padding: 15px;
+        text-align: center;
+
+        img {
+            width: 400px;
+        }
+    }
+}
+
+.purple-link {
+    color: $primary-purple !important;
+    font-weight: bold;
+}
+
 .quote {
 
     .title {
@@ -1187,6 +1211,23 @@ input {
         flex-direction: column;
 
         .strech-content {
+            width: 100% !important;
+        }
+
+        .ic-content {
+            padding: 15px 0 !important;
+
+            img {
+                padding: 0;
+                width: 100% !important;
+            }
+        }
+    }
+
+    .pilate-box {
+        flex-direction: column;
+
+        .pilate-content {
             width: 100% !important;
         }
 
