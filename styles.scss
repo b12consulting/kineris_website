@@ -629,7 +629,8 @@ $animationSpeed: 20s;
 
 @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 7))}
+    //100% { transform: translateX(calc(-250px * 16))}
+    100% { transform: translateX(-100%)}
 }
 
 .slider {
@@ -637,13 +638,13 @@ $animationSpeed: 20s;
     margin: auto;
     overflow:hidden;
     position: relative;
-    width: auto;
+    width: 100%;
     padding-top: 59px;
 
     .slide-track {
         animation: scroll $animationSpeed linear infinite;
         display: flex;
-        width: calc(250px * 14);
+        width: 100%;
     }
     .slide {
         height: 100px;
