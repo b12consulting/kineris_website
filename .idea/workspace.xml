@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="49afaccb-2fe1-4e1c-a807-1ae5ccc93b27" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cervico-maxilo-faciale.html" beforeDir="false" afterPath="$PROJECT_DIR$/cervico-maxilo-faciale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kinesitherapie-julie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kinesitherapie-julie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinesitherapie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kinesitherapie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kinesitherapie-megan.html" beforeDir="false" afterPath="$PROJECT_DIR$/kinesitherapie-megan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kinesitherapie.html" beforeDir="false" afterPath="$PROJECT_DIR$/centre.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/massage.html" beforeDir="false" afterPath="$PROJECT_DIR$/massage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rdv.html" beforeDir="false" afterPath="$PROJECT_DIR$/rdv.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +76,16 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1680" />
     <option name="y" value="25" />
     <option name="width" value="1920" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectId" id="2VFCY8knWyWTpKVa74usxEP2yv3" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -94,10 +105,24 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/wendytruyens/Documents/Sources/Kineris_website",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -121,6 +146,7 @@
       <workItem from="1611752728925" duration="2139000" />
       <workItem from="1619115572266" duration="2981000" />
       <workItem from="1620053957170" duration="251000" />
+      <workItem from="1694422487066" duration="1166000" />
     </task>
     <servers />
   </component>
@@ -149,6 +175,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
