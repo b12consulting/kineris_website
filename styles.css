@@ -27,6 +27,12 @@ html, body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "fontawesome6";
+  src: url("assets/fonts/fa-regular-400.woff2") format("woff2"), url("assets/fonts/fa-regular-400.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /* RESPONSIVE MENU */
 .header {
   background-color: #fff;
@@ -136,8 +142,20 @@ html, body {
 }
 
 /* CUSTOM */
+.fa {
+  font-family: "fontawesome6";
+}
+
+.fa-sm {
+  font-size: 1rem;
+}
+
 a {
   color: #37bdaf;
+}
+
+.mt-4 {
+  margin-top: 4rem;
 }
 
 .m-r-10 {
@@ -543,7 +561,7 @@ input {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-1750px);
+    transform: translateX(-100%);
   }
 }
 .slider {
@@ -551,13 +569,13 @@ input {
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: auto;
+  width: 100%;
   padding-top: 59px;
 }
 .slider .slide-track {
   animation: scroll 20s linear infinite;
   display: flex;
-  width: 3500px;
+  width: 100%;
 }
 .slider .slide {
   height: 100px;
@@ -711,6 +729,36 @@ input {
   padding-top: 60px;
   padding-bottom: 30px;
 }
+.kine .banner-header {
+  background-color: #37bdaf;
+  background-image: url("assets/images/img-center-1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  height: 400px;
+  color: white;
+}
+.kine .banner-header h1 {
+  color: white;
+  font-size: 4rem;
+  margin: 0;
+  line-height: 4rem;
+}
+.kine .banner-header .content {
+  max-width: 500px;
+  margin-top: 2rem;
+}
+.kine .therapeutes {
+  margin-top: 2rem;
+}
+.kine .therapeutes .section-title {
+  color: #4b3659;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
 .kine .tab-row {
   display: flex;
   justify-content: flex-start;
@@ -742,43 +790,52 @@ input {
   padding: 10px;
   color: white;
 }
-.kine .julie {
+.kine .people-team {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 30%;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 4rem;
 }
-.kine .julie .photo {
+.kine .people-team .photo {
   width: 300px;
 }
-.kine .julie .photo img {
+.kine .people-team .photo img {
   width: 300px;
 }
-.kine .julie .name {
+.kine .people-team .name {
   font-size: 25px;
   font-weight: bold;
   margin-top: 10px;
   color: #4b3659;
   line-height: 1.2em;
 }
-.kine .julie .num {
+.kine .people-team .role {
+  color: #333333;
+  font-family: "catamaranthin";
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+.kine .people-team .num {
   margin-top: 10px;
   color: #37bdaf;
 }
-.kine .julie .num a {
+.kine .people-team .num a {
   color: #37bdaf;
 }
-.kine .julie .rdv-btn {
+.kine .people-team .rdv-btn {
   background-color: #4b3659;
   color: white;
-  padding: 5px;
   cursor: pointer !important;
-  width: fit-content;
   margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px 5px 8px 5px;
+  width: 200px;
+  text-align: center;
 }
-.kine .julie .rdv-btn a {
+.kine .people-team .rdv-btn a {
   color: white !important;
   text-decoration: none;
   cursor: pointer !important;
@@ -794,6 +851,10 @@ input {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 10px;
+}
+.kine .row {
+  flex-wrap: wrap;
+  justify-content: center !important;
 }
 .kine .row .left-box {
   width: 60%;
@@ -845,6 +906,22 @@ input {
   justify-content: center !important;
 }
 
+#corentin {
+  padding-top: 5rem;
+}
+#corentin .section-title {
+  color: #4b3659;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+#corentin .flex-wrap-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
 .footer {
   color: white;
   padding-bottom: 16px;

@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49afaccb-2fe1-4e1c-a807-1ae5ccc93b27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/centre-corentin-gregoire.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cervico-maxilo-faciale.html" beforeDir="false" afterPath="$PROJECT_DIR$/cervico-maxilo-faciale.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinesitherapie-julie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kinesitherapie-julie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinesitherapie-megan.html" beforeDir="false" afterPath="$PROJECT_DIR$/kinesitherapie-megan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kinesitherapie.html" beforeDir="false" afterPath="$PROJECT_DIR$/centre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/massage.html" beforeDir="false" afterPath="$PROJECT_DIR$/massage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rdv.html" beforeDir="false" afterPath="$PROJECT_DIR$/rdv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centre.html" beforeDir="false" afterPath="$PROJECT_DIR$/centre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +109,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -119,6 +118,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -147,6 +148,7 @@
       <workItem from="1619115572266" duration="2981000" />
       <workItem from="1620053957170" duration="251000" />
       <workItem from="1694422487066" duration="1166000" />
+      <workItem from="1695214848117" duration="8936000" />
     </task>
     <servers />
   </component>

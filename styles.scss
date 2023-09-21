@@ -44,6 +44,15 @@ html,body {
 
 }
 
+@font-face {
+    font-family: 'fontawesome6';
+    src: url('assets/fonts/fa-regular-400.woff2') format('woff2'),
+    url('assets/fonts/fa-regular-400.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* RESPONSIVE MENU */
 
 .header {
@@ -170,11 +179,22 @@ html,body {
     top: 0;
 }
 
-
 /* CUSTOM */
+
+.fa {
+    font-family: 'fontawesome6';
+}
+
+.fa-sm {
+    font-size: 1rem;
+}
 
 a {
     color: $primary-green;
+}
+
+.mt-4 {
+    margin-top: 4rem;
 }
 
 .m-r-10 {
@@ -834,6 +854,42 @@ $animationSpeed: 20s;
     padding-top: 60px;
     padding-bottom: 30px;
 
+    .banner-header {
+        background-color: #37bdaf;
+        background-image: url("assets/images/img-center-1.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 2rem;
+        height: 400px;
+        color: white;
+
+        h1 {
+            color: white;
+            font-size: 4rem;
+            margin: 0;
+            line-height: 4rem;
+        }
+
+        .content {
+            max-width: 500px;
+            margin-top: 2rem;
+        }
+
+    }
+
+    .therapeutes {
+        margin-top: 2rem;
+
+        .section-title {
+            color: $primary-purple;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+    }
+
     .tab-row {
         display: flex;
         justify-content: flex-start;
@@ -870,13 +926,14 @@ $animationSpeed: 20s;
         color: white;
     }
 
-    .julie {
+    .people-team {
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 30%;
         justify-content: center;
         align-items: center;
         margin-top: 30px;
+        margin-bottom: 4rem;
 
         .photo {
             width: 300px;
@@ -894,6 +951,13 @@ $animationSpeed: 20s;
             line-height: 1.2em;
         }
 
+        .role {
+            color: #333333;
+            font-family: 'catamaranthin';
+            margin-top: 7px;
+            margin-bottom: 10px;
+        }
+
         .num {
             margin-top: 10px;
             color: $primary-green;
@@ -906,10 +970,12 @@ $animationSpeed: 20s;
         .rdv-btn {
             background-color: $primary-purple;
             color: white;
-            padding: 5px;
             cursor: pointer !important;
-            width: fit-content;
             margin-top: 10px;
+            border-radius: 5px;
+            padding: 5px 5px 8px 5px;
+            width: 200px;
+            text-align: center;
 
             a {
                 color: white !important;
@@ -940,6 +1006,10 @@ $animationSpeed: 20s;
     }
 
     .row {
+
+        flex-wrap: wrap;
+        justify-content: center !important;
+
         .left-box {
             width: 60%;
             margin-right: 20px;
@@ -998,6 +1068,29 @@ $animationSpeed: 20s;
 
     .row-center {
         justify-content: center !important;
+    }
+}
+
+#corentin {
+    padding-top: 5rem;
+
+    .section-title {
+        color: $primary-purple;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .flex-wrap-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-wrap: wrap;
+
+        .picture {
+
+        }
     }
 }
 
@@ -1318,9 +1411,9 @@ $animationSpeed: 20s;
     .value {
         font-size: 14px !important;
         .ic {
-           img {
-               width: 80px;
-           }
+            img {
+                width: 80px;
+            }
         }
     }
 }
