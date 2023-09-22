@@ -33,6 +33,12 @@ html, body {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "fontawesome6solid";
+  src: url("assets/fonts/fa-solid-900.woff2") format("woff2"), url("assets/fonts/fa-solid-900.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /* RESPONSIVE MENU */
 .header {
   background-color: #fff;
@@ -142,8 +148,21 @@ html, body {
 }
 
 /* CUSTOM */
+.wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.fa-solid {
+  font-family: "fontawesome6solid";
+  margin-bottom: -3px;
+}
+
 .fa {
   font-family: "fontawesome6";
+  margin-bottom: -3px;
 }
 
 .fa-sm {
@@ -160,6 +179,10 @@ a {
 
 .m-r-10 {
   margin-right: 10px;
+}
+
+.mb-1 {
+  margin-bottom: 1rem !important;
 }
 
 .bg-purple {
@@ -759,6 +782,10 @@ input {
   justify-content: center;
   gap: 0.5rem;
 }
+.kine .therapeutes .section-title .title {
+  text-align: center;
+  line-height: 2rem;
+}
 .kine .tab-row {
   display: flex;
   justify-content: flex-start;
@@ -798,6 +825,7 @@ input {
   align-items: center;
   margin-top: 30px;
   margin-bottom: 4rem;
+  min-width: 320px;
 }
 .kine .people-team .photo {
   width: 300px;
@@ -811,6 +839,7 @@ input {
   margin-top: 10px;
   color: #4b3659;
   line-height: 1.2em;
+  text-align: center;
 }
 .kine .people-team .role {
   color: #333333;
@@ -846,8 +875,17 @@ input {
   margin-bottom: 10px;
 }
 .kine .row {
+  display: flex;
+  gap: 2rem;
   flex-wrap: wrap;
   justify-content: center !important;
+}
+.kine .row .group {
+  max-width: 1800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .kine .row .left-box {
   width: 60%;
@@ -899,55 +937,174 @@ input {
   justify-content: center !important;
 }
 
-#corentin {
-  padding-top: 5rem;
+.banner-people {
+  background-color: #37bdaf;
+  background-image: url("assets/images/img-center-2.jpg");
+  background-size: cover;
+  background-position: right;
+  height: 300px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
-#corentin .section-title {
+.banner-people h1 {
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+  line-height: 4rem;
+  padding-left: 2rem;
+}
+
+#people-team-custom-page {
+  padding: 5rem 0;
+}
+#people-team-custom-page .container {
+  width: 80% !important;
+}
+#people-team-custom-page ul {
+  list-style: none;
+  padding-left: 0;
+}
+#people-team-custom-page ul li {
+  padding: 0.2rem 0;
+  font-family: "catamaranthin";
+  font-weight: 600;
+}
+#people-team-custom-page ul li:before {
+  color: #37bdaf;
+  content: "\f042";
+  font-family: "fontawesome6";
+  width: 0.3rem;
+  font-size: 12px;
+}
+#people-team-custom-page .section-title {
   color: #4b3659;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 2rem;
 }
-#corentin .flex-wrap-row {
+#people-team-custom-page .center-contact {
+  border: solid 1px #4b3659;
+  border-radius: 4px;
+  padding: 1rem;
+}
+#people-team-custom-page .center-contact .center-title {
+  text-transform: uppercase;
+  color: #37bdaf;
+  margin-bottom: 0.5rem;
+}
+#people-team-custom-page .center-contact .row-agenda {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+#people-team-custom-page .center-contact .row-agenda .progenda {
+  background-color: #4b3659;
+  border: solid 1px #4b3659;
+  color: white;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+#people-team-custom-page .center-contact .row-agenda .progenda a {
+  text-decoration: none;
+  color: white;
+}
+#people-team-custom-page .center-contact .row-agenda .num {
+  margin-top: 0;
+}
+#people-team-custom-page .flex-wrap-row {
+  display: flex;
+  justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
   margin-top: 4rem;
 }
-#corentin .line-tag {
+#people-team-custom-page .flex-wrap-row .picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#people-team-custom-page .flex-wrap-row .info-content {
+  margin-bottom: 2rem;
+}
+#people-team-custom-page .line-tag {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
-#corentin .line-tag .tag {
+#people-team-custom-page .line-tag .tag {
   background-color: #37bdaf;
   color: white;
-  padding: 5px;
+  padding: 4px 10px 7px 10px;
   border-radius: 5px;
+  font-size: 15px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
 }
-#corentin .role {
-  font-weight: 800;
-  font-size: 1.5rem;
+#people-team-custom-page .sub-section {
+  font-family: "catamaranthin";
+  font-weight: 600;
 }
-#corentin .sub-title {
+#people-team-custom-page .role {
   font-weight: 800;
-  margin-top: 2rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  font-family: "catamaranthin";
+}
+#people-team-custom-page .sub-title {
+  font-weight: 800;
+  margin-top: 3rem;
   margin-bottom: 0.5rem;
-  font-family: "catamaranbold";
+  font-family: "catamaranmedium";
   font-size: 1.5rem;
 }
-#corentin .sub-section {
-  padding-left: 1rem;
+#people-team-custom-page .sub-title:first-child {
+  margin-top: 0;
 }
-#corentin .num {
+#people-team-custom-page .flex-col {
+  flex-direction: column !important;
+}
+#people-team-custom-page .num {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
   margin-top: 10px;
   color: #37bdaf;
 }
-#corentin .num a {
-  color: #37bdaf;
+#people-team-custom-page .num a {
+  color: #4b3659;
+}
+#people-team-custom-page .num .others {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+#people-team-custom-page .num .others .row-content {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+#people-team-custom-page .num .others .row-content .center-name {
+  text-transform: uppercase;
+  font-family: "catamaranmedium";
+}
+#people-team-custom-page .num .others .address {
+  color: black;
+  margin-top: 0.5rem;
+}
+#people-team-custom-page .num .others small {
+  color: #333333;
 }
 
 .footer {
@@ -1220,7 +1377,25 @@ input {
     padding: 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+  #people-team-custom-page {
+    padding: 1rem 0 !important;
+  }
+  .center-contact {
+    width: 100% !important;
+  }
+  .banner-people {
+    height: 150px !important;
+  }
+  .banner-people h1 {
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .services .ergo-box .right-box img {
     width: 100%;
   }
@@ -1237,6 +1412,9 @@ input {
   }
   .team .des-julie .ic-title img {
     width: 40% !important;
+  }
+  .kine .people-team {
+    width: 80%;
   }
 }
 

@@ -53,6 +53,15 @@ html,body {
 
 }
 
+@font-face {
+    font-family: 'fontawesome6solid';
+    src: url('assets/fonts/fa-solid-900.woff2') format('woff2'),
+    url('assets/fonts/fa-solid-900.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* RESPONSIVE MENU */
 
 .header {
@@ -181,8 +190,21 @@ html,body {
 
 /* CUSTOM */
 
+.wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.fa-solid {
+    font-family: 'fontawesome6solid';
+    margin-bottom: -3px;
+}
+
 .fa {
     font-family: 'fontawesome6';
+    margin-bottom: -3px;
 }
 
 .fa-sm {
@@ -199,6 +221,10 @@ a {
 
 .m-r-10 {
     margin-right: 10px;
+}
+
+.mb-1 {
+    margin-bottom: 1rem !important;
 }
 
 .bg-purple {
@@ -887,6 +913,11 @@ $animationSpeed: 20s;
             align-items: center;
             justify-content: center;
             gap: 0.5rem;
+
+            .title {
+                text-align: center;
+                line-height: 2rem;
+            }
         }
     }
 
@@ -934,6 +965,7 @@ $animationSpeed: 20s;
         align-items: center;
         margin-top: 30px;
         margin-bottom: 4rem;
+        min-width: 320px;
 
         .photo {
             width: 300px;
@@ -949,6 +981,7 @@ $animationSpeed: 20s;
             margin-top: 10px;
             color: $primary-purple;
             line-height: 1.2em;
+            text-align: center;
         }
 
         .role {
@@ -997,9 +1030,18 @@ $animationSpeed: 20s;
     }
 
     .row {
-
+        display: flex;
+        gap: 2rem;
         flex-wrap: wrap;
         justify-content: center !important;
+
+        .group {
+            max-width: 1800px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
         .left-box {
             width: 60%;
@@ -1062,8 +1104,51 @@ $animationSpeed: 20s;
     }
 }
 
-#corentin {
-    padding-top: 5rem;
+.banner-people {
+    background-color: $primary-green;
+    background-image: url("assets/images/img-center-2.jpg");
+    background-size: cover;
+    background-position: right;
+    height: 300px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    h1 {
+        color: white;
+        font-size: 2rem;
+        margin: 0;
+        line-height: 4rem;
+        padding-left: 2rem;
+    }
+}
+
+#people-team-custom-page {
+    padding: 5rem 0;
+
+    .container {
+        width: 80% !important;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            padding: 0.2rem 0;
+            font-family: 'catamaranthin';
+            font-weight: 600;
+
+            &:before {
+                color: $primary-green;
+                content: "";
+                font-family: 'fontawesome6';
+                width: 0.3rem;
+                font-size: 12px;
+            }
+        }
+    }
 
     .section-title {
         color: $primary-purple;
@@ -1072,17 +1157,63 @@ $animationSpeed: 20s;
         justify-content: center;
         gap: 0.5rem;
         font-size: 2rem;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .center-contact {
+        border: solid 1px $primary-purple;
+        border-radius: 4px;
+        padding: 1rem;
+
+        .center-title {
+            text-transform: uppercase;
+            color: $primary-green;
+            margin-bottom: 0.5rem;
+        }
+
+        .row-agenda {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+
+            .progenda {
+                background-color: $primary-purple;
+                border: solid 1px $primary-purple;
+                color: white;
+                border-radius: 4px;
+                padding: 5px 10px;
+                cursor: pointer;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+            .num {
+                margin-top: 0;
+            }
+        }
     }
 
     .flex-wrap-row {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         gap: 2rem;
         flex-wrap: wrap;
         margin-top: 4rem;
 
         .picture {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
+        .info-content {
+            margin-bottom: 2rem;
         }
     }
 
@@ -1090,38 +1221,84 @@ $animationSpeed: 20s;
         display: flex;
         gap: 1rem;
         margin-top: 1rem;
+        flex-wrap: wrap;
 
         .tag {
             background-color: $primary-green;
             color: white;
-            padding: 5px;
+            padding: 4px 10px 7px 10px;
             border-radius: 5px;
+            font-size: 15px;
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
         }
+    }
+
+    .sub-section {
+        font-family: 'catamaranthin';
+        font-weight: 600;
     }
 
     .role {
         font-weight: 800;
-        font-size: 1.5rem;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        font-family: 'catamaranthin';
     }
 
     .sub-title {
         font-weight: 800;
-        margin-top: 2rem;
+        margin-top: 3rem;
         margin-bottom: 0.5rem;
-        font-family: 'catamaranbold';
+        font-family: 'catamaranmedium';
         font-size: 1.5rem;
+
+        &:first-child {
+            margin-top: 0;
+        }
     }
 
-    .sub-section {
-        padding-left: 1rem;
+    .flex-col {
+        flex-direction: column !important;
     }
 
     .num {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7rem;
         margin-top: 10px;
         color: $primary-green;
 
         a {
-            color: $primary-green;
+            color: $primary-purple;
+        }
+
+        .others {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+
+            .row-content {
+                display: flex;
+                flex-direction: row;
+                gap: 0.5rem;
+
+                .center-name {
+                    text-transform: uppercase;
+                    font-family: 'catamaranmedium';
+                }
+            }
+
+            .address {
+                color: black;
+                margin-top: 0.5rem;
+            }
+
+            small {
+                color: #333333;
+            }
         }
     }
 }
@@ -1475,7 +1652,29 @@ $animationSpeed: 20s;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+
+    #people-team-custom-page {
+        padding: 1rem 0 !important;
+    }
+
+    .center-contact {
+        width: 100% !important;
+    }
+
+    .banner-people {
+        height: 150px !important;
+
+        h1 {
+            text-align: center;
+            width: 100%;
+            height: 150px;
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 
     .services .ergo-box .right-box img {
         width: 100%;
@@ -1500,6 +1699,12 @@ $animationSpeed: 20s;
                     width: 40% !important;
                 }
             }
+        }
+    }
+
+    .kine {
+        .people-team {
+            width: 80%;
         }
     }
 }
