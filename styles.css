@@ -543,7 +543,7 @@ input {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-1750px);
+    transform: translateX(-100%);
   }
 }
 .slider {
@@ -551,13 +551,13 @@ input {
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: auto;
+  width: 100%;
   padding-top: 59px;
 }
 .slider .slide-track {
   animation: scroll 20s linear infinite;
   display: flex;
-  width: 3500px;
+  width: 100%;
 }
 .slider .slide {
   height: 100px;
