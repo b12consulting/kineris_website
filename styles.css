@@ -169,6 +169,10 @@ html, body {
   font-size: 1rem;
 }
 
+b {
+  font-family: "catamaranmedium";
+}
+
 a {
   color: #37bdaf;
 }
@@ -957,7 +961,7 @@ input {
 }
 
 #people-team-custom-page {
-  padding: 5rem 0;
+  padding: 1rem 0 3rem 0;
 }
 #people-team-custom-page .container {
   width: 80% !important;
@@ -1054,6 +1058,18 @@ input {
 #people-team-custom-page .sub-section {
   font-family: "catamaranthin";
   font-weight: 600;
+}
+#people-team-custom-page .sub-section .center-time {
+  margin-bottom: 1rem;
+}
+#people-team-custom-page .sub-section .center-time:last-child {
+  margin-bottom: 0;
+}
+#people-team-custom-page .sub-section .center-time .title {
+  margin-bottom: 0.3rem;
+  font-weight: 800;
+  font-family: "catamaranmedium";
+  color: #37bdaf;
 }
 #people-team-custom-page .role {
   font-weight: 800;

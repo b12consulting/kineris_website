@@ -211,6 +211,10 @@ html,body {
     font-size: 1rem;
 }
 
+b {
+    font-family: 'catamaranmedium';
+}
+
 a {
     color: $primary-green;
 }
@@ -1125,7 +1129,7 @@ $animationSpeed: 20s;
 }
 
 #people-team-custom-page {
-    padding: 5rem 0;
+    padding: 1rem 0 3rem 0;
 
     .container {
         width: 80% !important;
@@ -1238,6 +1242,20 @@ $animationSpeed: 20s;
     .sub-section {
         font-family: 'catamaranthin';
         font-weight: 600;
+
+        .center-time {
+            margin-bottom: 1rem;
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .title {
+                margin-bottom: 0.3rem;
+                font-weight: 800;
+                font-family: 'catamaranmedium';
+                color: $primary-green;
+            }
+        }
     }
 
     .role {
