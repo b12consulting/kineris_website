@@ -231,6 +231,10 @@ a {
     margin-bottom: 1rem !important;
 }
 
+.gap-1 {
+    gap: 0.5rem;
+}
+
 .bg-purple {
     background-color: $primary-purple;
 }
@@ -286,6 +290,10 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
 }
 
 input {
@@ -1004,6 +1012,12 @@ $animationSpeed: 20s;
             padding: 5px 5px 8px 5px;
             width: 200px;
             text-align: center;
+
+            &:hover {
+                background-color: $primary-green;
+                border-coler: $primary-green;
+                font-size: 17px;
+            }
 
             a {
                 color: white !important;

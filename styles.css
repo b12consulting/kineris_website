@@ -189,6 +189,10 @@ a {
   margin-bottom: 1rem !important;
 }
 
+.gap-1 {
+  gap: 0.5rem;
+}
+
 .bg-purple {
   background-color: #4b3659;
 }
@@ -241,6 +245,10 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
 }
 
 input {
@@ -860,6 +868,11 @@ input {
   padding: 5px 5px 8px 5px;
   width: 200px;
   text-align: center;
+}
+.kine .people-team .rdv-btn:hover {
+  background-color: #37bdaf;
+  border-coler: #37bdaf;
+  font-size: 17px;
 }
 .kine .people-team .rdv-btn a {
   color: white !important;
