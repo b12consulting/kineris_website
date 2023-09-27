@@ -892,6 +892,10 @@ $animationSpeed: 20s;
     padding-top: 60px;
     padding-bottom: 30px;
 
+    .content-mobile {
+        display: none;
+    }
+
     .banner-header {
         background-color: #37bdaf;
         background-image: url("assets/images/img-center-1.jpg");
@@ -1737,6 +1741,23 @@ $animationSpeed: 20s;
     .kine {
         .people-team {
             width: 80%;
+        }
+
+        .banner-header {
+            height: auto !important;
+
+            h1 {
+                font-size: 3rem !important;
+                line-height: 3.5rem;
+            }
+
+            .content {
+                display: none;
+            }
+        }
+
+        .content-mobile {
+            display: block;
         }
     }
 }

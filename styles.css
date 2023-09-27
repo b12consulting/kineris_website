@@ -764,6 +764,9 @@ input {
   padding-top: 60px;
   padding-bottom: 30px;
 }
+.kine .content-mobile {
+  display: none;
+}
 .kine .banner-header {
   background-color: #37bdaf;
   background-image: url("assets/images/img-center-1.jpg");
@@ -1444,6 +1447,19 @@ input {
   }
   .kine .people-team {
     width: 80%;
+  }
+  .kine .banner-header {
+    height: auto !important;
+  }
+  .kine .banner-header h1 {
+    font-size: 3rem !important;
+    line-height: 3.5rem;
+  }
+  .kine .banner-header .content {
+    display: none;
+  }
+  .kine .content-mobile {
+    display: block;
   }
 }
 
