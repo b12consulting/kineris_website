@@ -437,6 +437,12 @@ input {
         flex-direction: column;
         align-items: center;
         padding: 2rem;
+
+        .purple {
+            a {
+                color: $primary-purple;
+            }
+        }
     }
 
     .section-line {
@@ -567,10 +573,72 @@ input {
                         color: $primary-green;
                         line-height: 2rem;
                     }
+
+                    .custom-list {
+                        list-style: none;
+                        padding-left: 0;
+
+                        li::before {
+                            content: "\2022";
+                            color: $primary-purple;
+                            font-weight: bold;
+                            display: inline-block;
+                            width: 1em;
+                            margin-left: -1em;
+                        }
+                    }
                 }
             }
         }
     }
+}
+
+.e-shop {
+    padding: 4rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    h1 {
+        color: $primary-purple;
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    h2 {
+        margin-top: 3rem;
+        line-height: 2rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .shop-row {
+        display: flex;
+        gap: 3rem;
+
+        @media screen and (max-width: 800px) {
+            flex-direction: column;
+            padding: 1rem;
+        }
+    }
+
+    .shop-box {
+        background-color: $primary-green;
+        width: 200px;
+        height: 80px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
 }
 
 .problem {

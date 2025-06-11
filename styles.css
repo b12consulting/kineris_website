@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* VARIABLES COLORS */
 /* RESET HTML */
 html, body {
@@ -395,6 +396,9 @@ input {
   align-items: center;
   padding: 2rem;
 }
+.formation-section .subscribe .purple a {
+  color: #4b3659;
+}
 .formation-section .section-line {
   display: flex;
   flex-direction: column;
@@ -515,6 +519,62 @@ input {
   font-family: "catamaranbold";
   color: #37bdaf;
   line-height: 2rem;
+}
+.formation-section .box-section .formation-content .block-row .block .custom-list {
+  list-style: none;
+  padding-left: 0;
+}
+.formation-section .box-section .formation-content .block-row .block .custom-list li::before {
+  content: "•";
+  color: #4b3659;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.e-shop {
+  padding: 4rem 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.e-shop h1 {
+  color: #4b3659;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0;
+}
+.e-shop h2 {
+  margin-top: 3rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.e-shop .shop-row {
+  display: flex;
+  gap: 3rem;
+}
+@media screen and (max-width: 800px) {
+  .e-shop .shop-row {
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+.e-shop .shop-box {
+  background-color: #37bdaf;
+  width: 200px;
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .problem .center-block p {
