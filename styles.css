@@ -378,6 +378,12 @@ input {
   display: flex;
   gap: 2rem;
 }
+@media screen and (max-width: 400px) {
+  .formation-section .inside-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
 .formation-section .big-size {
   font-size: 2.5rem;
   color: #4b3659;
@@ -395,6 +401,19 @@ input {
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+}
+.formation-section .subscribe .info-date {
+  margin-bottom: 1rem;
+}
+.formation-section .subscribe .cta-form {
+  background-color: #4b3659;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  color: white;
+  text-decoration: none !important;
+}
+.formation-section .subscribe .cta-form:hover {
+  background-color: #37bdaf !important;
 }
 .formation-section .subscribe .purple a {
   color: #4b3659;
@@ -476,6 +495,12 @@ input {
     margin: 0;
   }
 }
+@media screen and (max-width: 400px) {
+  .formation-section .box-section .formation-content .amma-pic {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
 .formation-section .box-section .formation-content .line-bullet {
   display: flex;
   flex-direction: row;
@@ -490,6 +515,9 @@ input {
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
+}
+.formation-section .box-section .formation-content .block-row .green-block {
+  background-color: rgb(227, 239, 238) !important;
 }
 .formation-section .box-section .formation-content .block-row .block {
   display: flex;
@@ -522,15 +550,16 @@ input {
 }
 .formation-section .box-section .formation-content .block-row .block .custom-list {
   list-style: none;
-  padding-left: 0;
+  padding-left: 2rem;
 }
 .formation-section .box-section .formation-content .block-row .block .custom-list li::before {
   content: "•";
   color: #4b3659;
   font-weight: bold;
   display: inline-block;
-  width: 1em;
+  width: 1.5rem;
   margin-left: -1em;
+  font-size: 1.5rem;
 }
 
 .e-shop {

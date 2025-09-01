@@ -416,6 +416,11 @@ input {
     .inside-row {
         display: flex;
         gap: 2rem;
+
+        @media screen and (max-width: 400px) {
+            flex-direction: column;
+            gap: 0;
+        }
     }
 
     .big-size {
@@ -437,6 +442,22 @@ input {
         flex-direction: column;
         align-items: center;
         padding: 2rem;
+
+        .info-date {
+            margin-bottom: 1rem;
+        }
+
+       .cta-form {
+            background-color: $primary-purple;
+            border-radius: 10px;
+            padding: 1rem 3rem;
+            color: white;
+            text-decoration: none !important;
+
+            &:hover {
+                background-color: $primary-green !important;
+            }
+        }
 
         .purple {
             a {
@@ -526,6 +547,11 @@ input {
                 @media screen and (max-width: 600px) {
                     margin: 0;
                 }
+
+                @media screen and (max-width: 400px) {
+                    width: 100% !important;
+                    height: auto !important;
+                }
             }
 
             .line-bullet {
@@ -543,6 +569,11 @@ input {
                 width: 100%;
                 flex-wrap: wrap;
                 justify-content: center;
+
+                .green-block {
+                    background-color: $primary-light-green !important;
+
+                }
 
                 .block {
                     display: flex;
@@ -576,15 +607,16 @@ input {
 
                     .custom-list {
                         list-style: none;
-                        padding-left: 0;
+                        padding-left: 2rem;
 
                         li::before {
                             content: "\2022";
                             color: $primary-purple;
                             font-weight: bold;
                             display: inline-block;
-                            width: 1em;
+                            width: 1.5rem;
                             margin-left: -1em;
+                            font-size: 1.5rem;
                         }
                     }
                 }
