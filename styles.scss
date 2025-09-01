@@ -507,6 +507,9 @@ input {
 
         .formation-content {
             border-radius: 50px;
+            gap: 2rem;
+            display: flex;
+            flex-direction: column;
 
             .formation-content-row {
                 display: flex;
@@ -535,6 +538,13 @@ input {
                 line-height: 1.6rem;
                 max-width: 500px;
 
+            }
+            .mobile-img {
+                margin-bottom: 0;
+
+                @media screen and (max-width: 600px) {
+                    margin-bottom: 2rem !important;
+                }
             }
 
             .amma-pic {
@@ -1161,6 +1171,10 @@ $animationSpeed: 20s;
     padding-top: 60px;
     padding-bottom: 30px;
 
+    .ancrage {
+        height: 45px;
+    }
+
     .content-mobile {
         display: none;
     }
@@ -1203,6 +1217,13 @@ $animationSpeed: 20s;
                 text-align: center;
                 line-height: 2rem;
             }
+        }
+
+        .link-to {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
         }
     }
 
@@ -1322,7 +1343,7 @@ $animationSpeed: 20s;
 
     .row {
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
         flex-wrap: wrap;
         justify-content: center !important;
 

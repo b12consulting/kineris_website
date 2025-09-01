@@ -456,6 +456,9 @@ input {
 }
 .formation-section .box-section .formation-content {
   border-radius: 50px;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 .formation-section .box-section .formation-content .formation-content-row {
   display: flex;
@@ -481,6 +484,14 @@ input {
   font-size: 1.2rem;
   line-height: 1.6rem;
   max-width: 500px;
+}
+.formation-section .box-section .formation-content .mobile-img {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 600px) {
+  .formation-section .box-section .formation-content .mobile-img {
+    margin-bottom: 2rem !important;
+  }
 }
 .formation-section .box-section .formation-content .amma-pic {
   width: auto;
@@ -1003,6 +1014,9 @@ input {
   padding-top: 60px;
   padding-bottom: 30px;
 }
+.kine .ancrage {
+  height: 45px;
+}
 .kine .content-mobile {
   display: none;
 }
@@ -1039,6 +1053,12 @@ input {
 .kine .therapeutes .section-title .title {
   text-align: center;
   line-height: 2rem;
+}
+.kine .therapeutes .link-to {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 .kine .tab-row {
   display: flex;
@@ -1135,7 +1155,7 @@ input {
 }
 .kine .row {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   flex-wrap: wrap;
   justify-content: center !important;
 }
