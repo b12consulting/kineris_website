@@ -1224,6 +1224,24 @@ $animationSpeed: 20s;
             justify-content: center;
             gap: 2rem;
             flex-wrap: wrap;
+
+            .quick-link {
+                background-color: $primary-green;
+                color: white;
+                text-decoration: none;
+                border-radius: 50%;
+                cursor: pointer;
+                width: 120px;
+                height: 120px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+                &:hover {
+                    background-color: $primary-purple;
+                }
+            }
         }
     }
 
@@ -1352,6 +1370,11 @@ $animationSpeed: 20s;
             flex-direction: column;
             justify-content: center;
             margin-top: 2rem;
+
+            .info-job {
+                text-align: center;
+                padding: 2rem;
+            }
 
             .title-order-section {
                 text-align: center;

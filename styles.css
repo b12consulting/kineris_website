@@ -1060,6 +1060,22 @@ input {
   gap: 2rem;
   flex-wrap: wrap;
 }
+.kine .therapeutes .link-to .quick-link {
+  background-color: #37bdaf;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.kine .therapeutes .link-to .quick-link:hover {
+  background-color: #4b3659;
+}
 .kine .tab-row {
   display: flex;
   justify-content: flex-start;
@@ -1164,6 +1180,10 @@ input {
   flex-direction: column;
   justify-content: center;
   margin-top: 2rem;
+}
+.kine .row .order-list .info-job {
+  text-align: center;
+  padding: 2rem;
 }
 .kine .row .order-list .title-order-section {
   text-align: center;
