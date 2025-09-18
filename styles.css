@@ -1399,6 +1399,10 @@ input {
 #people-team-custom-page .sub-title:first-child {
   margin-top: 0;
 }
+#people-team-custom-page .second-list {
+  margin-top: 5px !important;
+  padding-left: 15px;
+}
 #people-team-custom-page .flex-col {
   flex-direction: column !important;
 }
