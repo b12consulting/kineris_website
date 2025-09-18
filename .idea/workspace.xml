@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49afaccb-2fe1-4e1c-a807-1ae5ccc93b27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/geraldine-saouma-reflexologue.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/centre.html" beforeDir="false" afterPath="$PROJECT_DIR$/centre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corentin-gregoire-kinesitherapeute.html" beforeDir="false" afterPath="$PROJECT_DIR$/corentin-gregoire-kinesitherapeute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/julie-dendal-kinesitherapeute-cervico-maxilo-faciale.html" beforeDir="false" afterPath="$PROJECT_DIR$/julie-dendal-kinesitherapeute-cervico-maxilo-faciale.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laeticia-lambinet-coach-scolaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/laeticia-lambinet-coach-scolaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laura-hologne-kinesitherapeute.html" beforeDir="false" afterPath="$PROJECT_DIR$/laura-hologne-kinesitherapeute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/louise-minner-logopede-adulte.html" beforeDir="false" afterPath="$PROJECT_DIR$/louise-minner-logopede-adulte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marjorie-laverdure-Kinésiologue.html" beforeDir="false" afterPath="$PROJECT_DIR$/marjorie-laverdure-Kinésiologue.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/megan-devillers-kinesitherapeute-praticienne-medecine-chinoise.html" beforeDir="false" afterPath="$PROJECT_DIR$/megan-devillers-kinesitherapeute-praticienne-medecine-chinoise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/natacha-dourdine-osteopathe-d-o.html" beforeDir="false" afterPath="$PROJECT_DIR$/natacha-dourdine-osteopathe-d-o.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vanessa-mourmaux-psychologue.html" beforeDir="false" afterPath="$PROJECT_DIR$/vanessa-mourmaux-psychologue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/virginie-adam-sophrologue.html" beforeDir="false" afterPath="$PROJECT_DIR$/virginie-adam-sophrologue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ysaline-beeckmans-psychologue-clinicienne-coach-de-vie.html" beforeDir="false" afterPath="$PROJECT_DIR$/ysaline-beeckmans-psychologue-clinicienne-coach-de-vie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,22 +118,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wendytruyens/Documents/Sources/Kineris_website&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "wtr/update-2025",
+    "last_opened_file_path": "/Users/wendytruyens/Documents/Sources/Kineris_website",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
