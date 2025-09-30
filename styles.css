@@ -435,9 +435,9 @@ input {
   color: white !important;
 }
 .formation-section .box-section {
-  width: 60%;
+  width: 80%;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
   .formation-section .box-section {
     width: 75%;
   }
@@ -532,7 +532,7 @@ input {
 .formation-section .box-section .formation-content .block-row .block {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 400px;
   min-width: 300px;
   background-color: white;
   padding: 2rem;
