@@ -1437,6 +1437,9 @@ input {
 #people-team-custom-page .num .others small {
   color: #333333;
 }
+#people-team-custom-page .num .others .low-cap {
+  text-transform: none;
+}
 
 .footer {
   color: white;
