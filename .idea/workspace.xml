@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49afaccb-2fe1-4e1c-a807-1ae5ccc93b27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geraldine-saouma-reflexologue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ema-lefevre-logopedie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centre.html" beforeDir="false" afterPath="$PROJECT_DIR$/centre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corentin-gregoire-kinesitherapeute.html" beforeDir="false" afterPath="$PROJECT_DIR$/corentin-gregoire-kinesitherapeute.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/julie-dendal-kinesitherapeute-cervico-maxilo-faciale.html" beforeDir="false" afterPath="$PROJECT_DIR$/julie-dendal-kinesitherapeute-cervico-maxilo-faciale.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laeticia-lambinet-coach-scolaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/laeticia-lambinet-coach-scolaire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laura-hologne-kinesitherapeute.html" beforeDir="false" afterPath="$PROJECT_DIR$/laura-hologne-kinesitherapeute.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/louise-minner-logopede-adulte.html" beforeDir="false" afterPath="$PROJECT_DIR$/louise-minner-logopede-adulte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marjorie-laverdure-Kinésiologue.html" beforeDir="false" afterPath="$PROJECT_DIR$/marjorie-laverdure-Kinésiologue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/megan-devillers-kinesitherapeute-praticienne-medecine-chinoise.html" beforeDir="false" afterPath="$PROJECT_DIR$/megan-devillers-kinesitherapeute-praticienne-medecine-chinoise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/natacha-dourdine-osteopathe-d-o.html" beforeDir="false" afterPath="$PROJECT_DIR$/natacha-dourdine-osteopathe-d-o.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vanessa-mourmaux-psychologue.html" beforeDir="false" afterPath="$PROJECT_DIR$/vanessa-mourmaux-psychologue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/virginie-adam-sophrologue.html" beforeDir="false" afterPath="$PROJECT_DIR$/virginie-adam-sophrologue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ysaline-beeckmans-psychologue-clinicienne-coach-de-vie.html" beforeDir="false" afterPath="$PROJECT_DIR$/ysaline-beeckmans-psychologue-clinicienne-coach-de-vie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +73,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1680" />
     <option name="y" value="25" />
@@ -124,8 +113,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "wtr/update-2025",
+    "git-widget-placeholder": "wt/quick-add",
     "last_opened_file_path": "/Users/wendytruyens/Documents/Sources/Kineris_website",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -136,6 +126,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -162,6 +159,7 @@
       <workItem from="1620053957170" duration="251000" />
       <workItem from="1694422487066" duration="1166000" />
       <workItem from="1695214848117" duration="32629000" />
+      <workItem from="1764586378754" duration="4093000" />
     </task>
     <servers />
   </component>
