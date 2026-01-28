@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49afaccb-2fe1-4e1c-a807-1ae5ccc93b27" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/ema-lefevre-logopedie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/centre.html" beforeDir="false" afterPath="$PROJECT_DIR$/centre.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +78,12 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
+<<<<<<< Updated upstream
   "customColor": "",
   "associatedIndex": 2
+=======
+  "associatedIndex": 3
+>>>>>>> Stashed changes
 }]]></component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1680" />
@@ -115,7 +123,11 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
+<<<<<<< Updated upstream
     "git-widget-placeholder": "wt/quick-add",
+=======
+    "git-widget-placeholder": "master",
+>>>>>>> Stashed changes
     "last_opened_file_path": "/Users/wendytruyens/Documents/Sources/Kineris_website",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -159,7 +171,11 @@
       <workItem from="1620053957170" duration="251000" />
       <workItem from="1694422487066" duration="1166000" />
       <workItem from="1695214848117" duration="32629000" />
+<<<<<<< Updated upstream
       <workItem from="1764586378754" duration="4093000" />
+=======
+      <workItem from="1769518723549" duration="1234000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
